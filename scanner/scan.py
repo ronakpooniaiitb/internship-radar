@@ -133,6 +133,9 @@ class Matcher:
             elif RESTRICTED_RE.search(loc) or re.search(r"\b(us|usa|uk|eu)[- ]only\b|must (?:be )?(?:based|located|reside) in the (?:us|united states|uk|eu)", head, re.I):
                 return None, "remote, but only for another region"
             else:
+                rest = re.sub(r"\b(remote|anywhere|worldwide|work from home|wfh|distributed|global|hybrid|fully|first|office|hq|only)\b", " ", loc, flags=re.I)
+                if re.search(r"[a-z]{3,}", rest, re.I):
+                    return None, "remote, but only for another region"
                 mode, loc_score = "Remote", 0
                 notes.append("Remote, but region not stated — check India is allowed")
         else:
