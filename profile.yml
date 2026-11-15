@@ -1,0 +1,143 @@
+# ─────────────────────────────────────────────────────────────
+#  YOUR PROFILE  —  edit this file to change what the scanner finds.
+#  (On GitHub: open this file → click the pencil icon → edit → "Commit changes")
+#  Lines starting with # are notes and are ignored.
+# ─────────────────────────────────────────────────────────────
+
+graduation_year: 2028        # used to spot "only for 2026/2027 graduates" postings
+
+# Roles you want. A posting must match at least one of these in its TITLE.
+# The number is how much it adds to the fit score (out of 10).
+role_keywords:
+  "ai product": 5
+  "product manag": 4          # matches manager / management
+  "associate product": 4
+  "apm": 4
+  "product intern": 4
+  "product strategy": 4
+  "product analyst": 3
+  "product operations": 3
+  "founder": 4                # founder's office, founders office
+  "chief of staff": 4
+  "strategy": 3
+  "growth": 3
+  "business operations": 3
+  "bizops": 3
+  "strategy & operations": 3
+  "operations": 2
+  "go-to-market": 2
+  "gtm": 2
+  "consult": 2                # consultant / consulting
+  "business analyst": 2
+  "business development": 2
+  "partnerships": 2
+  "venture": 2
+  "program manag": 2
+  "summer analyst": 2
+  "business intern": 2
+
+# Words in the description that match your background (each adds a little).
+profile_keywords:
+  - ai
+  - llm
+  - genai
+  - agent
+  - startup
+  - consulting
+  - erp
+  - supply chain
+  - analytics
+  - sql
+  - excel
+  - market research
+  - user research
+  - agri
+  - travel
+  - fintech
+  - saas
+  - b2b
+  - growth
+
+# If the TITLE contains any of these, the posting is dropped.
+exclude_title_keywords:
+  - software
+  - engineer
+  - developer
+  - sde
+  - devops
+  - data scien
+  - machine learning
+  - ml
+  - frontend
+  - backend
+  - full stack
+  - fullstack
+  - designer
+  - ux
+  - ui/ux
+  - qa
+  - test
+  - security
+  - legal
+  - accounting
+  - tax
+  - audit
+  - hr
+  - human resources
+  - recruit
+  - talent
+  - sales development
+  - phd
+  - mba
+  - research scientist
+
+# Phrases in the description that probably make you ineligible (lowers score, shown as a warning).
+red_flags:
+  - mba
+  - pgdm
+  - final year
+  - final-year
+  - phd
+  - us citizen
+  - authorized to work in the united states
+  - work authorization
+  - must be located in the united states
+  - unpaid
+
+# Cities that count as "India on-site".
+india_locations:
+  - india
+  - mumbai
+  - bombay
+  - navi mumbai
+  - thane
+  - pune
+  - bengaluru
+  - bangalore
+  - hyderabad
+  - delhi
+  - new delhi
+  - gurugram
+  - gurgaon
+  - noida
+  - chennai
+  - kolkata
+  - ahmedabad
+  - jaipur
+  - indore
+  - chandigarh
+  - kochi
+  - coimbatore
+  - gandhinagar
+  - vadodara
+  - surat
+  - lucknow
+  - bhubaneswar
+  - mohali
+
+# Your nearest city gets a small bonus for on-site roles.
+home_city_bonus:
+  - mumbai
+  - bombay
+  - navi mumbai
+  - thane

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Internship Radar</title>
+<style>
+  :root{--bg:#f7f7f5;--card:#fff;--ink:#1d1d1b;--mut:#6b6b66;--line:#e6e5e0;--acc:#2f5bd3;--good:#1f8a4c;--warn:#b5651d;--chip:#f0efe9}
+  @media (prefers-color-scheme:dark){:root{--bg:#141413;--card:#1e1e1c;--ink:#ecebe6;--mut:#a3a29c;--line:#33332f;--acc:#7c9cff;--good:#5fc98c;--warn:#e3a35c;--chip:#2a2a27}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,sans-serif}
+  header{padding:28px 20px 8px;max-width:1000px;margin:auto}
+  h1{margin:0;font-size:26px;letter-spacing:-.02em}
+  .sub{color:var(--mut);margin-top:4px}
+  .stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px}
+  .stat b{font-size:18px;display:block}
+  .stat span{color:var(--mut);font-size:12px}
+  .controls{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+  .controls .in{max-width:1000px;margin:auto;padding:10px 20px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+  input[type=search],select{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:7px 10px}
+  input[type=search]{flex:1 1 220px}
+  label.chk{display:flex;align-items:center;gap:5px;color:var(--mut);font-size:14px;white-space:nowrap}
+  main{max-width:1000px;margin:auto;padding:12px 20px 60px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:10px;display:grid;grid-template-columns:52px 1fr auto;gap:14px;align-items:start}
+  .card.applied{opacity:.55}
+  .fit{width:52px;height:52px;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:700;font-size:20px;background:var(--chip)}
+  .fit small{font-size:10px;font-weight:500;color:var(--mut)}
+  .fit.hi{background:color-mix(in srgb,var(--good) 18%,transparent);color:var(--good)}
+  .fit.mid{background:color-mix(in srgb,var(--acc) 15%,transparent);color:var(--acc)}
+  .t{font-weight:650;font-size:16px}
+  .co{color:var(--mut);margin-top:1px}
+  .meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+  .pill{background:var(--chip);border-radius:999px;padding:2px 9px;font-size:12px;color:var(--mut)}
+  .pill.new{background:var(--acc);color:#fff}
+  .pill.rem{color:var(--good)}
+  .note{font-size:13px;color:var(--warn);margin-top:6px}
+  .note.ok{color:var(--good)}
+  .act{display:flex;flex-direction:column;gap:6px;align-items:stretch;min-width:110px}
+  a.apply{background:var(--acc);color:#fff;text-decoration:none;text-align:center;border-radius:8px;padding:8px 12px;font-weight:600}
+  button.sm{font:inherit;font-size:12px;background:none;border:1px solid var(--line);color:var(--mut);border-radius:8px;padding:4px 8px;cursor:pointer}
+  .empty{color:var(--mut);text-align:center;padding:40px}
+  details{margin-top:30px;color:var(--mut)}
+  details table{border-collapse:collapse;width:100%;font-size:13px;margin-top:8px}
+  details td,details th{border-bottom:1px solid var(--line);padding:4px 6px;text-align:left;word-break:break-all}
+  .err{color:var(--warn)}
+  .help{font-size:13px;color:var(--mut);margin-top:24px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px}
+  @media (max-width:640px){.card{grid-template-columns:44px 1fr}.fit{width:44px;height:44px;font-size:17px}.act{grid-column:1/-1;flex-direction:row}.act a.apply{flex:1}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Internship Radar</h1>
+  <div class="sub">Product · AI PM · Founder's office · Strategy · Growth · Ops internships, remote from anywhere or on-site in India. Refreshed automatically twice a day.</div>
+  <div class="stats" id="stats"></div>
+</header>
+<div class="controls"><div class="in">
+  <input type="search" id="q" placeholder="Search title, company, city…">
+  <select id="mode"><option value="">Remote + India on-site</option><option value="Remote">Remote only</option><option value="On-site (India)">India on-site only</option></select>
+  <select id="minfit"><option value="1">Any fit</option><option value="5">Fit 5+</option><option value="7" selected>Fit 7+</option><option value="8">Fit 8+</option></select>
+  <select id="sort"><option value="fit">Sort: best fit</option><option value="new">Sort: newest</option></select>
+  <label class="chk"><input type="checkbox" id="newonly"> New (7 days)</label>
+  <label class="chk"><input type="checkbox" id="hidewarn"> Hide warnings</label>
+  <label class="chk"><input type="checkbox" id="showhidden"> Show hidden</label>
+</div></div>
+<main>
+  <div id="list"></div>
+  <div class="help"><b>Tips.</b> "Applied" and "Hide" are saved in this browser only. A <span style="color:var(--warn)">warning</span> means the posting mentions something like MBA, final-year or a graduation year that might exclude you; open it and check. To change what's found, edit <code>profile.yml</code> (keywords) or <code>companies.txt</code> (companies to watch) in the GitHub repository.</div>
+  <details><summary>Source health</summary><div id="health"></div></details>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+const store = {
+  get(k){ try { return JSON.parse(localStorage.getItem(k) || "{}"); } catch(e){ return {}; } },
+  set(k,v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} }
+};
+let DATA = {jobs:[]}, applied = store.get("ir_applied"), hidden = store.get("ir_hidden");
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const keyOf = j => (j.company + "|" + j.title).toLowerCase();
+const daysAgo = d => d ? Math.floor((Date.now() - new Date(d + "T00:00:00+05:30")) / 864e5) : 999;
+
+function render(){
+  const q = $("#q").value.trim().toLowerCase(), mode = $("#mode").value, min = +$("#minfit").value;
+  const newOnly = $("#newonly").checked, hideWarn = $("#hidewarn").checked, showHidden = $("#showhidden").checked;
+  let jobs = DATA.jobs.filter(j => {
+    if (j.fit < min) return false;
+    if (mode && j.mode !== mode) return false;
+    if (newOnly && daysAgo(j.first_seen) > 7) return false;
+    if (hideWarn && j.notes.some(n => !n.includes("✓"))) return false;
+    if (!showHidden && hidden[keyOf(j)]) return false;
+    if (q && !(j.title + " " + j.company + " " + j.location + " " + j.matched.join(" ")).toLowerCase().includes(q)) return false;
+    return true;
+  });
+  if ($("#sort").value === "new") jobs.sort((a,b) => (b.first_seen + b.posted).localeCompare(a.first_seen + a.posted));
+  $("#list").innerHTML = jobs.length ? jobs.map(j => {
+    const k = keyOf(j), isNew = daysAgo(j.first_seen) <= 3;
+    const cls = j.fit >= 8 ? "hi" : j.fit >= 6 ? "mid" : "";
+    const notes = j.notes.map(n => `<div class="note ${n.includes("✓") ? "ok" : ""}">${n.includes("✓") ? "" : "⚠ "}${esc(n)}</div>`).join("");
+    return `<div class="card ${applied[k] ? "applied" : ""}">
+      <div class="fit ${cls}">${j.fit}<small>fit</small></div>
+      <div>
+        <div class="t">${esc(j.title)}</div>
+        <div class="co">${esc(j.company)} · ${esc(j.location || "—")}</div>
+        <div class="meta">
+          ${isNew ? '<span class="pill new">NEW</span>' : ""}
+          <span class="pill ${j.mode === "Remote" ? "rem" : ""}">${esc(j.mode)}</span>
+          ${j.posted ? `<span class="pill">Posted ${esc(j.posted)}</span>` : ""}
+          <span class="pill">via ${esc(j.source)}</span>
+          ${applied[k] ? '<span class="pill">✓ Applied</span>' : ""}
+        </div>${notes}
+      </div>
+      <div class="act">
+        <a class="apply" href="${esc(j.url)}" target="_blank" rel="noopener">Apply ↗</a>
+        <button class="sm" data-a="${esc(k)}">${applied[k] ? "Undo applied" : "Mark applied"}</button>
+        <button class="sm" data-h="${esc(k)}">${hidden[k] ? "Unhide" : "Hide"}</button>
+      </div></div>`;
+  }).join("") : '<div class="empty">No internships match these filters. Try "Any fit" or clear the search.</div>';
+}
+
+document.addEventListener("click", e => {
+  const a = e.target.dataset.a, h = e.target.dataset.h;
+  if (a !== undefined){ applied[a] ? delete applied[a] : applied[a] = 1; store.set("ir_applied", applied); render(); }
+  if (h !== undefined){ hidden[h] ? delete hidden[h] : hidden[h] = 1; store.set("ir_hidden", hidden); render(); }
+});
+["#q","#mode","#minfit","#sort","#newonly","#hidewarn","#showhidden"].forEach(s => $(s).addEventListener("input", render));
+
+fetch("jobs.json?" + Date.now()).then(r => r.json()).then(d => {
+  DATA = d;
+  const newCount = d.jobs.filter(j => daysAgo(j.first_seen) <= 7).length;
+  const hi = d.jobs.filter(j => j.fit >= 7).length;
+  $("#stats").innerHTML = [
+    [d.count, "matching internships"], [hi, "fit 7 or higher"], [newCount, "new this week"],
+    [d.scanned_postings, "postings scanned"], [d.updated, "last updated"]
+  ].map(([b,s]) => `<div class="stat"><b>${esc(b)}</b><span>${esc(s)}</span></div>`).join("");
+  $("#health").innerHTML = `<p>${d.sources_ok} of ${d.sources_total} sources worked on the last run.</p><table><tr><th>Source</th><th>Postings</th><th>Status</th></tr>` +
+    d.health.map(h => `<tr><td>${esc(h.source)}</td><td>${h.postings}</td><td class="${h.error ? "err" : ""}">${h.error ? esc(h.error) : "OK"}</td></tr>`).join("") + "</table>";
+  render();
+}).catch(() => { $("#list").innerHTML = '<div class="empty">No data yet — the first scan is still running. Refresh in a few minutes.</div>'; });
+</script>
+</body>
+</html>
