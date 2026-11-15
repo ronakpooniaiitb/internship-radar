@@ -1,0 +1,1006 @@
+{
+ "updated": "2026-11-15 20:18 IST",
+ "count": 6,
+ "scanned_postings": 10226,
+ "sources_ok": 74,
+ "sources_total": 147,
+ "jobs": [
+  {
+   "title": "Founder’s Office Intern",
+   "company": "Weekdayworks",
+   "url": "https://jobs.lever.co/weekdayworks/c7ef3e83-d2db-4170-a533-503751b4a0d5",
+   "location": "India",
+   "mode": "Remote",
+   "posted": "2026-09-17",
+   "source": "Lever",
+   "fit": 7,
+   "matched": [
+    "founder",
+    "ai",
+    "startup"
+   ],
+   "notes": [],
+   "first_seen": "2026-11-15"
+  },
+  {
+   "title": "Springboard Internship - Strategy",
+   "company": "Landor",
+   "url": "https://job-boards.greenhouse.io/landor/jobs/8349420",
+   "location": "Mumbai",
+   "mode": "On-site (India)",
+   "posted": "2026-11-04",
+   "source": "Greenhouse",
+   "fit": 6,
+   "matched": [
+    "strategy"
+   ],
+   "notes": [],
+   "first_seen": "2026-11-15"
+  },
+  {
+   "title": "Business Development Associate Intern",
+   "company": "Weekdayworks",
+   "url": "https://jobs.lever.co/weekdayworks/e7bc46e7-f2af-4b93-bf46-9fedf00cbbfd",
+   "location": "India",
+   "mode": "Remote",
+   "posted": "2026-08-24",
+   "source": "Lever",
+   "fit": 5,
+   "matched": [
+    "business development",
+    "ai",
+    "growth",
+    "startup"
+   ],
+   "notes": [],
+   "first_seen": "2026-11-15"
+  },
+  {
+   "title": "Risk Strategy Intern",
+   "company": "Ramp",
+   "url": "https://jobs.ashbyhq.com/ramp/b87e898f-8d8b-447d-b3d5-9073ccf7d109",
+   "location": "New York, NY (HQ)",
+   "mode": "Remote",
+   "posted": "2026-11-13",
+   "source": "Ashby",
+   "fit": 2,
+   "matched": [
+    "strategy",
+    "ai",
+    "analytics",
+    "fintech",
+    "growth",
+    "sql"
+   ],
+   "notes": [
+    "Remote, but region not stated — check India is allowed",
+    "Seems to be for 2027 graduates"
+   ],
+   "first_seen": "2026-11-15"
+  },
+  {
+   "title": "Product Management Intern",
+   "company": "Rubrik Job Board",
+   "url": "https://www.rubrik.com/company/careers/departments/job.8345283?gh_jid=8345283",
+   "location": "Bangalore",
+   "mode": "On-site (India)",
+   "posted": "2026-11-04",
+   "source": "Greenhouse",
+   "fit": 2,
+   "matched": [
+    "product manag",
+    "ai",
+    "growth"
+   ],
+   "notes": [
+    "Seems to be for 2027 graduates",
+    "Check: mentions mba"
+   ],
+   "first_seen": "2026-11-15"
+  },
+  {
+   "title": "Operations Associate, Apprenticeship",
+   "company": "Stripe",
+   "url": "https://stripe.com/jobs/search?gh_jid=8131339",
+   "location": "Bengaluru",
+   "mode": "On-site (India)",
+   "posted": "2026-09-01",
+   "source": "Greenhouse",
+   "fit": 2,
+   "matched": [
+    "operations",
+    "excel",
+    "growth",
+    "startup"
+   ],
+   "notes": [
+    "Seems to be for 2026 graduates"
+   ],
+   "first_seen": "2026-11-15"
+  }
+ ],
+ "health": [
+  {
+   "source": "https://boards.greenhouse.io/sharechat",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/sharechat/jobs?content=true",
+   "seconds": 0.2
+  },
+  {
+   "source": "https://boards.greenhouse.io/chargebee",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/chargebee/jobs?content=true",
+   "seconds": 0.2
+  },
+  {
+   "source": "https://boards.greenhouse.io/mindtickle",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/mindtickle/jobs?content=true",
+   "seconds": 0.2
+  },
+  {
+   "source": "https://boards.greenhouse.io/innovaccer",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/innovaccer/jobs?content=true",
+   "seconds": 0.2
+  },
+  {
+   "source": "https://boards.greenhouse.io/dreamsports",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/dreamsports/jobs?content=true",
+   "seconds": 0.2
+  },
+  {
+   "source": "https://boards.greenhouse.io/postman",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true",
+   "seconds": 0.2
+  },
+  {
+   "source": "https://boards.greenhouse.io/browserstack",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/browserstack/jobs?content=true",
+   "seconds": 0.2
+  },
+  {
+   "source": "https://boards.greenhouse.io/whatfix",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/whatfix/jobs?content=true",
+   "seconds": 0.2
+  },
+  {
+   "source": "https://boards.greenhouse.io/phonepe",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/phonepe/jobs?content=true",
+   "seconds": 0.2
+  },
+  {
+   "source": "https://boards.greenhouse.io/thoughtspot",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/thoughtspot/jobs?content=true",
+   "seconds": 0.2
+  },
+  {
+   "source": "https://boards.greenhouse.io/uniphore",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/uniphore/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/hasura",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/hasura/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/zeta",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/zeta/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/acko",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/acko/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/cashfree",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/cashfree/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/upgrad",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/upgrad/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/mpl",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/mpl/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/curefit",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/curefit/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/games24x7",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/games24x7/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/hevodata",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/hevodata/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/darwinbox",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/darwinbox/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/yellowai",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/yellowai/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/khatabook",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/khatabook/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/leenaai",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/leenaai/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/gupshup",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/gupshup/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/urbancompany",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/urbancompany/jobs?content=true",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://boards.greenhouse.io/cars24",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/cars24/jobs?content=true",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://boards.greenhouse.io/licious",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/licious/jobs?content=true",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://boards.greenhouse.io/pinelabs",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/pinelabs/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/smallcase",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/smallcase/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/ixigo",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/ixigo/jobs?content=true",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://boards.greenhouse.io/sprinto",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/sprinto/jobs?content=true",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.lever.co/smallcase",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/smallcase?mode=json",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.lever.co/spinny",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/spinny?mode=json",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.lever.co/jupiter",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/jupiter?mode=json",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.lever.co/upstox",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/upstox?mode=json",
+   "seconds": 0.2
+  },
+  {
+   "source": "https://jobs.lever.co/unacademy",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/unacademy?mode=json",
+   "seconds": 0.2
+  },
+  {
+   "source": "https://jobs.lever.co/nykaa",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/nykaa?mode=json",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.lever.co/dunzo",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/dunzo?mode=json",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.lever.co/kreditbee",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/kreditbee?mode=json",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://jobs.lever.co/rapido",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/rapido?mode=json",
+   "seconds": 0.2
+  },
+  {
+   "source": "https://jobs.lever.co/slice",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/slice?mode=json",
+   "seconds": 0.2
+  },
+  {
+   "source": "https://jobs.lever.co/groww",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/groww?mode=json",
+   "seconds": 0.3
+  },
+  {
+   "source": "https://jobs.lever.co/zeptonow",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/zeptonow?mode=json",
+   "seconds": 0.3
+  },
+  {
+   "source": "https://jobs.lever.co/practo",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/practo?mode=json",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.lever.co/zomato",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/zomato?mode=json",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://jobs.lever.co/jar-app",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/jar-app?mode=json",
+   "seconds": 0.3
+  },
+  {
+   "source": "https://jobs.lever.co/healthifyme",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/healthifyme?mode=json",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.lever.co/pharmeasy",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/pharmeasy?mode=json",
+   "seconds": 0.2
+  },
+  {
+   "source": "https://jobs.lever.co/haptik",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/haptik?mode=json",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://jobs.lever.co/plum",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/plum?mode=json",
+   "seconds": 0.4
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/spyne",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/spyne",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/plum",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/plum",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/krutrim",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/krutrim",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/smallest-ai",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/smallest-ai",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/unstop",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/unstop",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/giga",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/giga",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.lever.co/physicswallah",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/physicswallah?mode=json",
+   "seconds": 0.3
+  },
+  {
+   "source": "https://apply.workable.com/wokelo",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://apply.workable.com/api/v1/widget/accounts/wokelo?details=true",
+   "seconds": 0.2
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/anysphere",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/anysphere",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://apply.workable.com/spyne",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://apply.workable.com/api/v1/widget/accounts/spyne?details=true",
+   "seconds": 0.2
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/clay",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/clay",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://jobs.lever.co/mistral",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/mistral?mode=json",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://jobs.lever.co/swiggy",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/swiggy?mode=json",
+   "seconds": 0.4
+  },
+  {
+   "source": "https://boards.greenhouse.io/doist",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/doist/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/hubstaff",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/hubstaff/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/safetywing",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/safetywing/jobs?content=true",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/toggl",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/toggl/jobs?content=true",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.lever.co/hotjar",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/hotjar?mode=json",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://jobs.lever.co/automattic",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/automattic?mode=json",
+   "seconds": 0.0
+  },
+  {
+   "source": "https://jobs.lever.co/simplilearn",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/simplilearn?mode=json",
+   "seconds": 0.6
+  },
+  {
+   "source": "https://boards.greenhouse.io/grammarly",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/grammarly/jobs?content=true",
+   "seconds": 0.2
+  },
+  {
+   "source": "https://job-boards.eu.greenhouse.io/kerneldao",
+   "postings": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/kerneldao/jobs?content=true",
+   "seconds": 0.1
+  },
+  {
+   "source": "https://apply.workable.com/unosecur",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.2
+  },
+  {
+   "source": "https://boards.greenhouse.io/remotecom",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/deel",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.0
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/vercel",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/successkpiinc",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.smartrecruiters.com/Visa",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.5
+  },
+  {
+   "source": "https://boards.greenhouse.io/porter",
+   "postings": 5,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/bolna",
+   "postings": 6,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://apply.workable.com/huggingface",
+   "postings": 6,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/atlan",
+   "postings": 7,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.lever.co/fi",
+   "postings": 8,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://boards.greenhouse.io/groww",
+   "postings": 9,
+   "error": null,
+   "seconds": 0.2
+  },
+  {
+   "source": "https://boards.greenhouse.io/safariai",
+   "postings": 9,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/posthog",
+   "postings": 10,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/zapier",
+   "postings": 10,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://boards.greenhouse.io/observeai",
+   "postings": 11,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://apply.workable.com/proarch-3",
+   "postings": 14,
+   "error": null,
+   "seconds": 0.8
+  },
+  {
+   "source": "https://jobs.lever.co/cred",
+   "postings": 15,
+   "error": null,
+   "seconds": 0.3
+  },
+  {
+   "source": "https://boards.greenhouse.io/razorpaysoftwareprivatelimited",
+   "postings": 25,
+   "error": null,
+   "seconds": 0.3
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/multiverse",
+   "postings": 25,
+   "error": null,
+   "seconds": 0.4
+  },
+  {
+   "source": "https://boards.greenhouse.io/discord",
+   "postings": 26,
+   "error": null,
+   "seconds": 0.3
+  },
+  {
+   "source": "https://boards.greenhouse.io/druva",
+   "postings": 27,
+   "error": null,
+   "seconds": 0.3
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/replit",
+   "postings": 30,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/composio",
+   "postings": 31,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "Remotive",
+   "postings": 32,
+   "error": null,
+   "seconds": 1.2
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/linear",
+   "postings": 33,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.smartrecruiters.com/Canva",
+   "postings": 33,
+   "error": null,
+   "seconds": 0.9
+  },
+  {
+   "source": "https://boards.greenhouse.io/glance",
+   "postings": 34,
+   "error": null,
+   "seconds": 0.3
+  },
+  {
+   "source": "Himalayas",
+   "postings": 40,
+   "error": null,
+   "seconds": 1.8
+  },
+  {
+   "source": "https://jobs.lever.co/weekdayworks",
+   "postings": 42,
+   "error": null,
+   "seconds": 0.2
+  },
+  {
+   "source": "https://boards.greenhouse.io/dropbox",
+   "postings": 44,
+   "error": null,
+   "seconds": 0.5
+  },
+  {
+   "source": "https://jobs.lever.co/meesho",
+   "postings": 49,
+   "error": null,
+   "seconds": 0.4
+  },
+  {
+   "source": "Arbeitnow",
+   "postings": 49,
+   "error": null,
+   "seconds": 2.6
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/sarvam",
+   "postings": 50,
+   "error": null,
+   "seconds": 0.2
+  },
+  {
+   "source": "https://boards.greenhouse.io/landor",
+   "postings": 52,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://boards.greenhouse.io/duolingo",
+   "postings": 59,
+   "error": null,
+   "seconds": 0.3
+  },
+  {
+   "source": "https://boards.greenhouse.io/inmobi",
+   "postings": 74,
+   "error": null,
+   "seconds": 0.6
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/supabase",
+   "postings": 77,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/lovable",
+   "postings": 79,
+   "error": null,
+   "seconds": 0.2
+  },
+  {
+   "source": "https://apply.workable.com/lokal-app",
+   "postings": 87,
+   "error": null,
+   "seconds": 0.4
+  },
+  {
+   "source": "https://jobs.lever.co/spotify",
+   "postings": 87,
+   "error": null,
+   "seconds": 0.5
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/mercor",
+   "postings": 91,
+   "error": null,
+   "seconds": 0.3
+  },
+  {
+   "source": "RemoteOK",
+   "postings": 97,
+   "error": null,
+   "seconds": 2.1
+  },
+  {
+   "source": "https://jobs.smartrecruiters.com/Freshworks",
+   "postings": 100,
+   "error": null,
+   "seconds": 0.7
+  },
+  {
+   "source": "https://jobs.smartrecruiters.com/ServiceNow",
+   "postings": 100,
+   "error": null,
+   "seconds": 1.1
+  },
+  {
+   "source": "Jobicy",
+   "postings": 100,
+   "error": null,
+   "seconds": 2.1
+  },
+  {
+   "source": "We Work Remotely",
+   "postings": 100,
+   "error": null,
+   "seconds": 2.3
+  },
+  {
+   "source": "https://boards.greenhouse.io/twilio",
+   "postings": 114,
+   "error": null,
+   "seconds": 0.6
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/cohere",
+   "postings": 121,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/decagon",
+   "postings": 124,
+   "error": null,
+   "seconds": 0.3
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/elevenlabs",
+   "postings": 128,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://boards.greenhouse.io/figma",
+   "postings": 139,
+   "error": null,
+   "seconds": 0.7
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/perplexity",
+   "postings": 141,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://boards.greenhouse.io/reddit",
+   "postings": 145,
+   "error": null,
+   "seconds": 1.0
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/notion",
+   "postings": 165,
+   "error": null,
+   "seconds": 0.3
+  },
+  {
+   "source": "https://boards.greenhouse.io/robinhood",
+   "postings": 165,
+   "error": null,
+   "seconds": 1.2
+  },
+  {
+   "source": "https://boards.greenhouse.io/scaleai",
+   "postings": 170,
+   "error": null,
+   "seconds": 0.3
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/ramp",
+   "postings": 180,
+   "error": null,
+   "seconds": 0.6
+  },
+  {
+   "source": "https://boards.greenhouse.io/rubrik",
+   "postings": 183,
+   "error": null,
+   "seconds": 0.5
+  },
+  {
+   "source": "https://jobs.lever.co/paytm",
+   "postings": 202,
+   "error": null,
+   "seconds": 0.4
+  },
+  {
+   "source": "https://boards.greenhouse.io/airbnb",
+   "postings": 214,
+   "error": null,
+   "seconds": 1.5
+  },
+  {
+   "source": "https://boards.greenhouse.io/gitlab",
+   "postings": 254,
+   "error": null,
+   "seconds": 0.8
+  },
+  {
+   "source": "https://boards.greenhouse.io/coinbase",
+   "postings": 265,
+   "error": null,
+   "seconds": 1.2
+  },
+  {
+   "source": "https://boards.greenhouse.io/brex",
+   "postings": 286,
+   "error": null,
+   "seconds": 1.4
+  },
+  {
+   "source": "https://jobs.lever.co/palantir",
+   "postings": 302,
+   "error": null,
+   "seconds": 1.7
+  },
+  {
+   "source": "https://boards.greenhouse.io/canonical",
+   "postings": 316,
+   "error": null,
+   "seconds": 0.5
+  },
+  {
+   "source": "https://boards.greenhouse.io/datadog",
+   "postings": 384,
+   "error": null,
+   "seconds": 3.0
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/harvey",
+   "postings": 388,
+   "error": null,
+   "seconds": 0.7
+  },
+  {
+   "source": "https://boards.greenhouse.io/mongodb",
+   "postings": 390,
+   "error": null,
+   "seconds": 2.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/cloudflare",
+   "postings": 479,
+   "error": null,
+   "seconds": 3.7
+  },
+  {
+   "source": "https://boards.greenhouse.io/anthropic",
+   "postings": 668,
+   "error": null,
+   "seconds": 3.2
+  },
+  {
+   "source": "https://boards.greenhouse.io/stripe",
+   "postings": 785,
+   "error": null,
+   "seconds": 3.6
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/openai",
+   "postings": 840,
+   "error": null,
+   "seconds": 4.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/databricks",
+   "postings": 895,
+   "error": null,
+   "seconds": 3.6
+  }
+ ]
+}
