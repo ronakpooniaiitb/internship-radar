@@ -1,6 +1,6 @@
 {
-"updated": "2026-11-15 20:24 IST",
-"count": 320,
+"updated": "2026-11-15 20:27 IST",
+"count": 354,
 "dropped": [
 {
 "title": "Accounting Intern",
@@ -35,6 +35,14 @@
 "url": "https://www.coinbase.com/careers/positions/8175432?gh_jid=8175432"
 },
 {
+"title": "Internship - Search Backend Infra Engineer",
+"company": "perplexity",
+"location": "Belgrade",
+"source": "Ashby",
+"why": "excluded word: Backend",
+"url": "https://jobs.ashbyhq.com/Perplexity/be94e89b-89d5-4f2a-a58b-7929c8d97f92"
+},
+{
 "title": "Backend Interns",
 "company": "TrueFoundry",
 "location": "India",
@@ -59,12 +67,28 @@
 "url": "https://careers.duolingo.com/jobs/8888848002?gh_jid=8888848002"
 },
 {
+"title": "Data Science Intern",
+"company": "mercor",
+"location": "San Francisco",
+"source": "Ashby",
+"why": "excluded word: Data Scien",
+"url": "https://jobs.ashbyhq.com/mercor/11516609-e54b-4087-87c2-e84a8bafbb5a"
+},
+{
 "title": "Product Designer, Thrive Intern",
 "company": "Duolingo",
 "location": "Pittsburgh, PA",
 "source": "Greenhouse",
 "why": "excluded word: Designer",
 "url": "https://careers.duolingo.com/jobs/8933791002?gh_jid=8933791002"
+},
+{
+"title": "Product Designer Intern",
+"company": "Lokal App",
+"location": "Bengaluru, Karnataka, India",
+"source": "Workable",
+"why": "excluded word: Designer",
+"url": "https://apply.workable.com/j/CB2EDD7186"
 },
 {
 "title": "Product Designer, Internship",
@@ -131,12 +155,44 @@
 "url": "https://www.coinbase.com/careers/positions/8175510?gh_jid=8175510"
 },
 {
+"title": "Forward Deployed Engineering Internship (Fall 2026 & Winter 2027)",
+"company": "composio",
+"location": "sf",
+"source": "Ashby",
+"why": "excluded word: Engineer",
+"url": "https://jobs.ashbyhq.com/composio/6b742321-a1e6-46d7-88d1-103bae44df23"
+},
+{
+"title": "Engineering Intern (Summer 2027)",
+"company": "decagon",
+"location": "San Francisco",
+"source": "Ashby",
+"why": "excluded word: Engineer",
+"url": "https://jobs.ashbyhq.com/decagon/16529089-a048-4bc3-8456-3f197135e00b"
+},
+{
 "title": "Data Engineer Intern (2027)",
 "company": "Figma",
 "location": "San Francisco, CA • New York, NY",
 "source": "Greenhouse",
 "why": "excluded word: Engineer",
 "url": "https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004"
+},
+{
+"title": "Research Engineer Intern - Environments, Data and Post-Training",
+"company": "mercor",
+"location": "San Francisco",
+"source": "Ashby",
+"why": "excluded word: Engineer",
+"url": "https://jobs.ashbyhq.com/mercor/049bd532-6fb7-4ae6-85a1-788dd31a14ca"
+},
+{
+"title": "Research Engineer, Intern – Benchmarking",
+"company": "mercor",
+"location": "San Francisco",
+"source": "Ashby",
+"why": "excluded word: Engineer",
+"url": "https://jobs.ashbyhq.com/mercor/2b1a4fd9-300d-4ae9-b5c8-eacba99bf4ae"
 },
 {
 "title": "Sales Engineering Intern, Summer 2027",
@@ -201,6 +257,14 @@
 "source": "Greenhouse",
 "why": "excluded word: Frontend",
 "url": "https://app.careerpuck.com/job-board/truefoundry/job/5127144008?gh_jid=5127144008"
+},
+{
+"title": "Fullstack Engineering Internship, Product Team (Fall 2026 & Winter 2027)",
+"company": "composio",
+"location": "sf",
+"source": "Ashby",
+"why": "excluded word: Fullstack",
+"url": "https://jobs.ashbyhq.com/composio/eea3c0be-8589-4e3d-a684-de29a9eada0d"
 },
 {
 "title": "People Team Intern, HR Transformation (Winter 2027)",
@@ -299,12 +363,36 @@
 "url": "https://boards.greenhouse.io/faire/jobs/8870975002?gh_jid=8870975002"
 },
 {
+"title": "Machine Learning Intern/Co-op  (Winter 2027)",
+"company": "cohere",
+"location": "Canada | Europe | United States | United Kingdom",
+"source": "Ashby",
+"why": "excluded word: Machine Learning",
+"url": "https://jobs.ashbyhq.com/cohere/36d1f52f-8270-4652-adf5-5303a0ff341b"
+},
+{
 "title": "Machine Learning Engineer Intern",
 "company": "Coinbase",
 "location": "Hybrid - San Francisco, CA",
 "source": "Greenhouse",
 "why": "excluded word: Machine Learning",
 "url": "https://www.coinbase.com/careers/positions/8175441?gh_jid=8175441"
+},
+{
+"title": "Internship - Search Machine Learning Engineer",
+"company": "perplexity",
+"location": "Belgrade",
+"source": "Ashby",
+"why": "excluded word: Machine Learning",
+"url": "https://jobs.ashbyhq.com/Perplexity/9246cf02-26fd-4ae8-90c5-639c6e85e9e2"
+},
+{
+"title": "Internship - Search Machine Learning Engineer",
+"company": "perplexity",
+"location": "London",
+"source": "Ashby",
+"why": "excluded word: Machine Learning",
+"url": "https://jobs.ashbyhq.com/Perplexity/71168628-1998-47d3-87a9-be7bc56a430d"
 },
 {
 "title": "Machine Learning Research Intern (Summer 2027)",
@@ -667,6 +755,14 @@
 "url": "https://jobs.lever.co/hevodata/993a3ed3-3014-432f-b0f4-28d300d58d9a"
 },
 {
+"title": "Software Engineer Intern",
+"company": "mercor",
+"location": "San Francisco",
+"source": "Ashby",
+"why": "excluded word: Software",
+"url": "https://jobs.ashbyhq.com/mercor/de3025e5-10ca-4d55-b688-eff0e647ac8d"
+},
+{
 "title": "2027 - Software Engineering Intern, AMER",
 "company": "MongoDB",
 "location": "Austin; New York City; San Francisco",
@@ -689,6 +785,38 @@
 "source": "Greenhouse",
 "why": "excluded word: Software",
 "url": "https://www.mongodb.com/careers/job/?gh_jid=8267099"
+},
+{
+"title": "Software Engineer Intern (Summer 2027)",
+"company": "notion",
+"location": "San Francisco, California | New York, New York",
+"source": "Ashby",
+"why": "excluded word: Software",
+"url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c"
+},
+{
+"title": "Software Engineer Intern, Mobile (Winter 2027)",
+"company": "notion",
+"location": "San Francisco, California | New York, New York",
+"source": "Ashby",
+"why": "excluded word: Software",
+"url": "https://jobs.ashbyhq.com/notion/2b587e66-deac-421a-a824-9415ba78b5a7"
+},
+{
+"title": "Software Engineering Intern, Frontend (Summer 2027)",
+"company": "notion",
+"location": "New York, New York | San Francisco, California",
+"source": "Ashby",
+"why": "excluded word: Software",
+"url": "https://jobs.ashbyhq.com/notion/43ffba97-b64a-4c6a-ac13-c803253c9413"
+},
+{
+"title": "Software Engineering Intern, iOS (Summer 2027)",
+"company": "notion",
+"location": "New York, New York",
+"source": "Ashby",
+"why": "excluded word: Software",
+"url": "https://jobs.ashbyhq.com/notion/27090d0f-07d3-419b-adaa-837b5e22f947"
 },
 {
 "title": "Forward Deployed Software Engineer, Internship",
@@ -1003,6 +1131,38 @@
 "url": "https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329"
 },
 {
+"title": "Software Engineering Intern, Frontend",
+"company": "ramp",
+"location": "New York, NY (HQ)",
+"source": "Ashby",
+"why": "excluded word: Software",
+"url": "https://jobs.ashbyhq.com/ramp/a13ae586-f4cb-4385-8822-c42b9b54ed74"
+},
+{
+"title": "Software Engineering Intern, Backend",
+"company": "ramp",
+"location": "New York, NY (HQ)",
+"source": "Ashby",
+"why": "excluded word: Software",
+"url": "https://jobs.ashbyhq.com/ramp/acf6b28d-767f-483f-8ff2-114620cd7e04"
+},
+{
+"title": "Software Engineering Intern, Android",
+"company": "ramp",
+"location": "New York, NY (HQ)",
+"source": "Ashby",
+"why": "excluded word: Software",
+"url": "https://jobs.ashbyhq.com/ramp/fcf118cc-521a-4a62-9d13-945e5b6e3cb8"
+},
+{
+"title": "Software Engineering Intern, iOS",
+"company": "ramp",
+"location": "New York, NY (HQ)",
+"source": "Ashby",
+"why": "excluded word: Software",
+"url": "https://jobs.ashbyhq.com/ramp/b66be397-240b-41a6-9b05-493299b270a9"
+},
+{
 "title": "Software Engineer (CPD) - Winter Intern",
 "company": "Rubrik Job Board",
 "location": "Bangalore",
@@ -1105,6 +1265,14 @@
 "source": "Lever",
 "why": "excluded word: Software",
 "url": "https://jobs.lever.co/weekdayworks/a86efff4-1c2e-43fc-8ecb-dc8f873db2f1"
+},
+{
+"title": "Talent Acquisition Intern",
+"company": "Lokal App",
+"location": "Bengaluru, Karnataka, India",
+"source": "Workable",
+"why": "excluded word: Talent",
+"url": "https://apply.workable.com/j/558B0EF1A3"
 },
 {
 "title": "Intern - Talent Acquisition",
@@ -1235,6 +1403,14 @@
 "url": "https://www.coinbase.com/careers/positions/8175569?gh_jid=8175569"
 },
 {
+"title": "Strategic Sourcing Intern",
+"company": "Coinbase",
+"location": "Hybrid - New York, NY",
+"source": "Greenhouse",
+"why": "on-site outside India",
+"url": "https://www.coinbase.com/careers/positions/8376084?gh_jid=8376084"
+},
+{
 "title": "Product Management Intern (2027) - Amsterdam",
 "company": "Databricks",
 "location": "Amsterdam, Netherlands",
@@ -1273,6 +1449,22 @@
 "source": "Greenhouse",
 "why": "on-site outside India",
 "url": "https://job-boards.greenhouse.io/landor/jobs/7667671"
+},
+{
+"title": "Deployment Strategist, Internship",
+"company": "palantir",
+"location": "Paris, France",
+"source": "Lever",
+"why": "on-site outside India",
+"url": "https://jobs.lever.co/palantir/774cf5c9-bf6a-4d77-bf60-d50ef1beb1a0"
+},
+{
+"title": "Deployment Strategist, Internship - US Government",
+"company": "palantir",
+"location": "Honolulu, HI",
+"source": "Lever",
+"why": "on-site outside India",
+"url": "https://jobs.lever.co/palantir/a49d4181-a289-435a-b581-7f5af0497c8e"
 },
 {
 "title": "Product Management Intern (MSP), Summer 2027",
@@ -1523,6 +1715,14 @@
 "url": "https://himalayas.app/companies/jerseystem/jobs/huca901-internship-program-manager?utm_source=api"
 },
 {
+"title": "Risk Strategy Intern",
+"company": "ramp",
+"location": "New York, NY (HQ)",
+"source": "Ashby",
+"why": "remote, but only for another region",
+"url": "https://jobs.ashbyhq.com/ramp/b87e898f-8d8b-447d-b3d5-9073ccf7d109"
+},
+{
 "title": "Growth Marketing Intern (Discovery)",
 "company": "Reedsy",
 "location": "Canada,  France,  Netherlands,  Portugal,  Spain,  UK,  USA",
@@ -1641,6 +1841,14 @@
 "source": "Greenhouse",
 "why": "remote, but only for another region",
 "url": "https://job-boards.greenhouse.io/sezzle/jobs/8012083003"
+},
+{
+"title": "Product Operations Intern, Rewards",
+"company": "Sezzle",
+"location": "Chile, Remote",
+"source": "Greenhouse",
+"why": "remote, but only for another region",
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/8012084003"
 },
 {
 "title": "Marketing Internship - Social Commerce Growth (6 Months Internship)",
@@ -1787,6 +1995,14 @@
 "url": "https://himalayas.app/companies/civicus/jobs/human-right-intern?utm_source=api"
 },
 {
+"title": "Research Internship (Winter 2027)",
+"company": "cohere",
+"location": "Canada | San Francisco | Europe | London | United States | United Kingdom | Toronto | Montreal",
+"source": "Ashby",
+"why": "role not in your list",
+"url": "https://jobs.ashbyhq.com/cohere/73bd3e2b-6597-4124-b64b-1e5dbc32e785"
+},
+{
 "title": "Acceleration Programs Intern",
 "company": "Coinbase",
 "location": "Hybrid - New York, NY",
@@ -1875,12 +2091,12 @@
 "url": "https://www.coinbase.com/careers/positions/8187551?gh_jid=8187551"
 },
 {
-"title": "Strategic Sourcing Intern",
-"company": "Coinbase",
-"location": "Hybrid - New York, NY",
-"source": "Greenhouse",
+"title": "Product  Ops Intern",
+"company": "composio",
+"location": "Bangalore",
+"source": "Ashby",
 "why": "role not in your list",
-"url": "https://www.coinbase.com/careers/positions/8376084?gh_jid=8376084"
+"url": "https://jobs.ashbyhq.com/composio/cceb9883-7967-45a9-8e37-ed72cec3deff"
 },
 {
 "title": "Product Design Intern (2027 Start)",
@@ -2027,12 +2243,52 @@
 "url": "https://himalayas.app/companies/lifelancer/jobs/information-technology-development-program-internship?utm_source=api"
 },
 {
+"title": "Intern - Performance Marketing (Content)",
+"company": "Lokal App",
+"location": "Bengaluru, Karnataka, India",
+"source": "Workable",
+"why": "role not in your list",
+"url": "https://apply.workable.com/j/C3694BE36E"
+},
+{
+"title": "Performance Marketing (Content) - Intern",
+"company": "Lokal App",
+"location": "Bengaluru, Karnataka, India",
+"source": "Workable",
+"why": "role not in your list",
+"url": "https://apply.workable.com/j/25BD5D01CD"
+},
+{
+"title": "React Native-Intern",
+"company": "Lokal App",
+"location": "Bengaluru, Karnataka, India",
+"source": "Workable",
+"why": "role not in your list",
+"url": "https://apply.workable.com/j/F22BE8359C"
+},
+{
+"title": "Social Media Content Marketer - Intern",
+"company": "Lokal App",
+"location": "Bengaluru, Karnataka, India",
+"source": "Workable",
+"why": "role not in your list",
+"url": "https://apply.workable.com/j/4E0BDE1E5C"
+},
+{
 "title": "Intern",
 "company": "Mendelia",
 "location": "United States",
 "source": "Himalayas",
 "why": "role not in your list",
 "url": "https://himalayas.app/companies/mendelia/jobs/intern?utm_source=api"
+},
+{
+"title": "Research Intern",
+"company": "mercor",
+"location": "San Francisco",
+"source": "Ashby",
+"why": "role not in your list",
+"url": "https://jobs.ashbyhq.com/mercor/e6502490-37c6-471a-9ffb-cf397764c518"
 },
 {
 "title": "Business & Finance Professional Internship",
@@ -2067,20 +2323,12 @@
 "url": "https://himalayas.app/companies/miratech/jobs/intern-esg-1190351223?utm_source=api"
 },
 {
-"title": "Deployment Strategist, Internship",
-"company": "palantir",
-"location": "Paris, France",
-"source": "Lever",
+"title": "Product Design Intern (Summer 2027)",
+"company": "notion",
+"location": "New York, New York",
+"source": "Ashby",
 "why": "role not in your list",
-"url": "https://jobs.lever.co/palantir/774cf5c9-bf6a-4d77-bf60-d50ef1beb1a0"
-},
-{
-"title": "Deployment Strategist, Internship - US Government",
-"company": "palantir",
-"location": "Honolulu, HI",
-"source": "Lever",
-"why": "role not in your list",
-"url": "https://jobs.lever.co/palantir/a49d4181-a289-435a-b581-7f5af0497c8e"
+"url": "https://jobs.ashbyhq.com/notion/ea6f01b1-dda2-4b0f-b351-d3e7c5e9c9e9"
 },
 {
 "title": "Finance Operator Intern",
@@ -2115,6 +2363,22 @@
 "url": "https://himalayas.app/companies/powerdata-group-consulting/jobs/zoho-agentic-ai-internship-program?utm_source=api"
 },
 {
+"title": "Applied Scientist Intern",
+"company": "ramp",
+"location": "New York, NY (HQ)",
+"source": "Ashby",
+"why": "role not in your list",
+"url": "https://jobs.ashbyhq.com/ramp/b39ceb08-a0a7-4f8b-a760-2fb88e209956"
+},
+{
+"title": "Cohort 0",
+"company": "replit",
+"location": "Foster City, CA",
+"source": "Ashby",
+"why": "role not in your list",
+"url": "https://jobs.ashbyhq.com/replit/2c147ccb-2557-40f8-aab9-64422cef220c"
+},
+{
 "title": "Corporate Finance Intern (Summer 2027)",
 "company": "Robinhood",
 "location": "New York, NY",
@@ -2145,6 +2409,14 @@
 "source": "Greenhouse",
 "why": "role not in your list",
 "url": "https://www.rubrik.com/company/careers/departments/job.8305308?gh_jid=8305308"
+},
+{
+"title": "Marketing internship (brand & communication)",
+"company": "sarvam",
+"location": "Bengaluru",
+"source": "Ashby",
+"why": "role not in your list",
+"url": "https://jobs.ashbyhq.com/sarvam/bba82f34-1544-421e-a393-3edd8a5f4cb2"
 },
 {
 "title": "AI Identity Intern",
