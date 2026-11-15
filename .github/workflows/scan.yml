@@ -21,7 +21,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name "internship-radar-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add docs/jobs.json data/seen.json
+          git add docs/jobs.json docs/dropped.json data/seen.json data/discovered.json
           git diff --cached --quiet || git commit -m "Update internships $(date -u +'%Y-%m-%d %H:%M')"
           git pull --rebase --autostash || true
           git push

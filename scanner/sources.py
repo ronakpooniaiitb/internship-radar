@@ -160,9 +160,15 @@ def fetch_workable(slug):
 
 
 def fetch_smartrecruiters(slug):
-    data = _get_json(f"https://api.smartrecruiters.com/v1/companies/{slug}/postings", params={"limit": 100})
+    content = []
+    for offset in range(0, 1000, 100):
+        data = _get_json(f"https://api.smartrecruiters.com/v1/companies/{slug}/postings", params={"limit": 100, "offset": offset})
+        page = data.get("content", [])
+        content.extend(page)
+        if len(page) < 100:
+            break
     out = []
-    for j in data.get("content", []):
+    for j in content:
         loc = j.get("location") or {}
         out.append(job(
             title=j.get("name"), company=(j.get("company") or {}).get("name") or slug,
@@ -287,3 +293,58 @@ BOARDS = {
     "Arbeitnow": fetch_arbeitnow,
     "We Work Remotely": fetch_wwr,
 }
+
+
+# ───────────────────────── find a company's job board from its name ─────────────────────────
+
+def _variants(name):
+    n = name.lower().strip()
+    n = re.sub(r"\(.*?\)", "", n).strip()
+    base = re.sub(r"[^a-z0-9 ]+", "", n)
+    words = base.split()
+    out = [
+        "".join(words),
+        "-".join(words),
+        "".join(words) + "india",
+        "".join(words) + "hq",
+        "".join(words) + "ai" if not base.endswith("ai") else "".join(words)[:-2],
+        "".join(words) + "technologies",
+        "".join(words) + "app",
+    ]
+    return [v for v in dict.fromkeys(out) if v]
+
+
+_PROBES = [
+    ("greenhouse", "https://boards-api.greenhouse.io/v1/boards/{s}/jobs", "https://boards.greenhouse.io/{s}"),
+    ("lever", "https://api.lever.co/v0/postings/{s}?mode=json&limit=1", "https://jobs.lever.co/{s}"),
+    ("ashby", "https://api.ashbyhq.com/posting-api/job-board/{s}", "https://jobs.ashbyhq.com/{s}"),
+    ("workable", "https://apply.workable.com/api/v1/widget/accounts/{s}", "https://apply.workable.com/{s}"),
+]
+
+
+def _probe_ok(kind, url):
+    try:
+        r = _session.get(url, timeout=12)
+        if r.status_code != 200:
+            return False
+        d = r.json()
+        if kind == "greenhouse":
+            return "jobs" in d
+        if kind == "lever":
+            return isinstance(d, list)
+        if kind == "ashby":
+            return "jobs" in d
+        if kind == "workable":
+            return "jobs" in d or "name" in d
+    except Exception:
+        return False
+    return False
+
+
+def discover(name):
+    """Return the careers-board URL for a company name, or None. Tries the main job-board systems."""
+    for v in _variants(name):
+        for kind, api, board in _PROBES:
+            if _probe_ok(kind, api.format(s=v)):
+                return board.format(s=v)
+    return None

@@ -27,7 +27,9 @@ RESTRICTED_RE = re.compile(
     r"\b(us|u\.s\.|usa|united states|americas|north america|latam|latin america|canada|uk|u\.k\.|united kingdom|"
     r"england|ireland|europe|european|eu|emea|germany|france|spain|netherlands|poland|portugal|italy|sweden|"
     r"australia|new zealand|brazil|mexico|argentina|colombia|nigeria|kenya|south africa|philippines|"
-    r"pakistan|israel|japan|singapore|cet|est|pst|cst)\b", re.I)
+    r"pakistan|israel|japan|singapore|cet|est|pst|cst|new york|ny|nyc|san francisco|sf|bay area|seattle|austin|boston|chicago|"
+    r"los angeles|denver|atlanta|miami|toronto|vancouver|london|berlin|paris|amsterdam|dublin|munich|zurich|"
+    r"stockholm|sydney|melbourne|tel aviv|tokyo|dubai|[a-z ]+, (?:ca|ny|tx|wa|ma|il|co|ga|fl|nj|va|nc|or|pa|ut|az|mn|oh|mi))\b", re.I)
 GRAD_YEAR_RE = re.compile(
     r"(?:graduat\w*|class of|batch(?: of)?|passouts?|pass-?outs?|grads?)\D{0,25}(20\d\d)|(20\d\d)\s*(?:graduat\w*|grads?|batch|passouts?|pass-?outs?)",
     re.I)
@@ -39,14 +41,39 @@ def load_yaml(name):
         return yaml.safe_load(f) or {}
 
 
-def load_company_urls():
-    urls = []
+def load_company_entries():
+    """companies.txt lines are either careers URLs or plain company names."""
+    urls, names = [], []
     with open(os.path.join(ROOT, "companies.txt"), encoding="utf-8") as f:
         for line in f:
             line = line.split("#", 1)[0].strip()
-            if line.startswith("http"):
-                urls.append(line)
-    return list(dict.fromkeys(urls))
+            if not line:
+                continue
+            (urls if line.startswith("http") else names).append(line)
+    return list(dict.fromkeys(urls)), list(dict.fromkeys(names))
+
+
+def resolve_names(names, today):
+    """Find each company's job board once and remember it in data/discovered.json."""
+    path = os.path.join(ROOT, "data", "discovered.json")
+    try:
+        with open(path, encoding="utf-8") as f:
+            cache = json.load(f)
+    except Exception:
+        cache = {}
+    retry_before = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=14)).strftime("%Y-%m-%d")
+    todo = [n for n in names if n not in cache or (not cache[n].get("url") and cache[n].get("checked", "") < retry_before)]
+    if todo:
+        print(f"Looking up job boards for {len(todo)} companies…")
+        with ThreadPoolExecutor(max_workers=24) as ex:
+            for n, url in zip(todo, ex.map(sources.discover, todo)):
+                cache[n] = {"url": url, "checked": today}
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(cache, f, indent=1, sort_keys=True)
+    found = {n: cache[n]["url"] for n in names if cache.get(n, {}).get("url")}
+    missing = [n for n in names if not cache.get(n, {}).get("url")]
+    return found, missing, cache, path
 
 
 def kw_re(words):
@@ -70,22 +97,23 @@ class Matcher:
         self.home = kw_re(p.get("home_city_bonus") or [])
         self.grad = int(p.get("graduation_year") or 0)
 
-    # → None if the posting should be dropped, else an enriched dict
+    # → (None, reason) if the posting should be dropped, else (enriched dict, "")
     def evaluate(self, j):
         title = j["title"]
         if not title or not j.get("url"):
-            return None
+            return None, "no title/url"
         text_emp = f"{title} {j.get('employment', '')}"
         if not INTERN_RE.search(text_emp):
-            return None
+            return None, "not an internship"
         if FULLTIME_TITLE_RE.search(title):
-            return None
-        if self.exclude and self.exclude.search(title):
-            return None
+            return None, "senior title"
+        m = self.exclude.search(title) if self.exclude else None
+        if m:
+            return None, f"excluded word: {m.group(1)}"
 
         hits = [(k, v) for r, k, v in self.role_res if r.search(title)]
         if not hits:
-            return None
+            return None, "role not in your list"
         role_score = max(v for _, v in hits) + (1 if len(hits) > 1 else 0)
 
         loc = " | ".join(j["locations"])
@@ -103,13 +131,13 @@ class Matcher:
             if india_hit or GLOBAL_OK_RE.search(loc):
                 mode, loc_score = "Remote", 2
             elif RESTRICTED_RE.search(loc) or re.search(r"\b(us|usa|uk|eu)[- ]only\b|must (?:be )?(?:based|located|reside) in the (?:us|united states|uk|eu)", head, re.I):
-                return None  # remote, but only for another country
+                return None, "remote, but only for another region"
             else:
                 mode, loc_score = "Remote", 0
                 notes.append("Remote, but region not stated — check India is allowed")
         else:
             if not india_hit:
-                return None  # on-site outside India
+                return None, "on-site outside India"
             mode, loc_score = "On-site (India)", 2
             if self.home and self.home.search(loc):
                 loc_score += 1
@@ -160,7 +188,7 @@ class Matcher:
             "fit": score,
             "matched": [k for k, _ in hits][:3] + prof_hits[:5],
             "notes": notes,
-        }
+        }, ""
 
 
 def prettify_company(c):
@@ -177,8 +205,12 @@ def key_of(j):
 def main():
     profile = load_yaml("profile.yml")
     matcher = Matcher(profile)
-    urls = load_company_urls()
     started = time.time()
+    today = datetime.now(IST).strftime("%Y-%m-%d")
+    urls, names = load_company_entries()
+    found, missing, cache, cache_path = resolve_names(names, today)
+    url_to_name = {u: n for n, u in found.items()}
+    urls = list(dict.fromkeys(urls + list(found.values())))
 
     raw, health = [], []
 
@@ -198,14 +230,29 @@ def main():
             raw.extend(res)
             health.append({"source": name, "postings": len(res), "error": err, "seconds": round(dt, 1)})
 
-    kept = {}
+    # a cached board that now 404s gets looked up again next run
+    for h in health:
+        n = url_to_name.get(h["source"])
+        if n:
+            h["source"] = f"{n} ({h['source']})"
+            if h["error"] and "404" in h["error"]:
+                cache[n] = {"url": None, "checked": "2000-01-01"}
+    with open(cache_path, "w", encoding="utf-8") as f:
+        json.dump(cache, f, indent=1, sort_keys=True)
+    for n in missing:
+        health.append({"source": n, "postings": 0, "error": "job board not found (may use another system)", "seconds": 0})
+
+    kept, dropped = {}, []
     for j in raw:
         try:
-            e = matcher.evaluate(j)
+            e, why = matcher.evaluate(j)
         except Exception as ex:  # a single bad posting never stops the run
             print("skip posting:", ex)
             continue
         if not e:
+            if why != "not an internship":
+                dropped.append({"title": j["title"], "company": j["company"], "location": " | ".join(j["locations"]),
+                                "source": j["source"], "why": why, "url": j["url"]})
             continue
         k = key_of(e)
         if k not in kept or e["fit"] > kept[k]["fit"]:
@@ -218,7 +265,6 @@ def main():
             seen = json.load(f)
     except Exception:
         seen = {}
-    today = datetime.now(IST).strftime("%Y-%m-%d")
     for k, e in kept.items():
         seen.setdefault(k, today)
         e["first_seen"] = seen[k]
@@ -241,12 +287,18 @@ def main():
     os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
     with open(os.path.join(ROOT, "docs", "jobs.json"), "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
+    dropped.sort(key=lambda d: (d["why"], d["company"].lower()))
+    with open(os.path.join(ROOT, "docs", "dropped.json"), "w", encoding="utf-8") as f:
+        json.dump({"updated": out["updated"], "count": len(dropped), "dropped": dropped[:3000]}, f, ensure_ascii=False, indent=0)
     with open(seen_path, "w", encoding="utf-8") as f:
         json.dump(seen, f, indent=0, sort_keys=True)
 
     bad = [h for h in health if h["error"]]
     print(f"Scanned {len(raw)} postings from {len(health)} sources ({len(bad)} failed) in {time.time() - started:.0f}s")
-    print(f"Kept {len(jobs)} matching internships")
+    print(f"Kept {len(jobs)} matching internships; {len(dropped)} other internships dropped (see docs/dropped.json)")
+    from collections import Counter
+    for why, c in Counter(d["why"] for d in dropped).most_common():
+        print(f"   {c:5d}  {why}")
     for h in bad:
         print("  ✗", h["source"], "—", h["error"])
 

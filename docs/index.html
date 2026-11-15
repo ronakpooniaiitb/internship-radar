@@ -67,6 +67,7 @@
   <div id="list"></div>
   <div class="help"><b>Tips.</b> "Applied" and "Hide" are saved in this browser only. A <span style="color:var(--warn)">warning</span> means the posting mentions something like MBA, final-year or a graduation year that might exclude you; open it and check. To change what's found, edit <code>profile.yml</code> (keywords) or <code>companies.txt</code> (companies to watch) in the GitHub repository.</div>
   <details><summary>Source health</summary><div id="health"></div></details>
+  <details><summary>Internships the filters left out (and why)</summary><div id="dropped">Loading…</div></details>
 </main>
 <script>
 const $ = s => document.querySelector(s);
@@ -135,6 +136,10 @@ fetch("jobs.json?" + Date.now()).then(r => r.json()).then(d => {
   $("#health").innerHTML = `<p>${d.sources_ok} of ${d.sources_total} sources worked on the last run.</p><table><tr><th>Source</th><th>Postings</th><th>Status</th></tr>` +
     d.health.map(h => `<tr><td>${esc(h.source)}</td><td>${h.postings}</td><td class="${h.error ? "err" : ""}">${h.error ? esc(h.error) : "OK"}</td></tr>`).join("") + "</table>";
   render();
+  fetch("dropped.json?" + Date.now()).then(r => r.json()).then(x => {
+    $("#dropped").innerHTML = `<p>${x.count} internships were found but didn't match your profile. If good ones show up here, add their words to <code>role_keywords</code> in profile.yml.</p><table><tr><th>Internship</th><th>Company</th><th>Location</th><th>Why left out</th></tr>` +
+      x.dropped.map(d => `<tr><td><a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.title)}</a></td><td>${esc(d.company)}</td><td>${esc(d.location)}</td><td>${esc(d.why)}</td></tr>`).join("") + "</table>";
+  }).catch(() => { $("#dropped").textContent = "Not available yet."; });
 }).catch(() => { $("#list").innerHTML = '<div class="empty">No data yet — the first scan is still running. Refresh in a few minutes.</div>'; });
 </script>
 </body>

@@ -1,104 +1,39 @@
 # ─────────────────────────────────────────────────────────────
-#  COMPANIES TO WATCH — one careers-page link per line.
-#  To add a company: find its careers page, click any job, and if the link starts with one of
-#  these, paste the first part here (company name right after the domain):
-#     https://boards.greenhouse.io/<name>      https://job-boards.greenhouse.io/<name>
-#     https://job-boards.eu.greenhouse.io/<name>
-#     https://jobs.lever.co/<name>              https://jobs.eu.lever.co/<name>
-#     https://jobs.ashbyhq.com/<name>
-#     https://apply.workable.com/<name>
-#     https://jobs.smartrecruiters.com/<name>
-#  Links that stop working show up in "Source health" at the bottom of the webpage — fix or delete them.
-#  Anything after # is a note.
+#  COMPANIES TO WATCH
+#  Just type a COMPANY NAME on its own line (e.g.  Razorpay ). The scanner finds its job board
+#  by itself the first time and remembers it. Or paste a careers link if you know it:
+#     https://boards.greenhouse.io/<name>   https://jobs.lever.co/<name>   https://jobs.ashbyhq.com/<name>
+#     https://apply.workable.com/<name>     https://jobs.smartrecruiters.com/<name>
+#  Companies whose job board can't be found (they use another system) are listed under
+#  "Source health" at the bottom of the webpage. Anything after # is a note.
 # ─────────────────────────────────────────────────────────────
 
-# ── India: fintech / consumer / SaaS ──
+# ── Confirmed links (working) ──
 https://boards.greenhouse.io/razorpaysoftwareprivatelimited   # Razorpay
-https://boards.greenhouse.io/phonepe
-https://boards.greenhouse.io/postman
-https://boards.greenhouse.io/browserstack
-https://boards.greenhouse.io/innovaccer
-https://boards.greenhouse.io/chargebee
-https://boards.greenhouse.io/thoughtspot
-https://boards.greenhouse.io/druva
-https://boards.greenhouse.io/mindtickle
-https://boards.greenhouse.io/sharechat
 https://boards.greenhouse.io/groww
-https://boards.greenhouse.io/dreamsports
 https://boards.greenhouse.io/inmobi
 https://boards.greenhouse.io/glance
-https://boards.greenhouse.io/whatfix
-https://boards.greenhouse.io/rubrik
+https://boards.greenhouse.io/druva
 https://boards.greenhouse.io/observeai
-https://boards.greenhouse.io/uniphore
-https://boards.greenhouse.io/hasura
-https://boards.greenhouse.io/zeta
-https://boards.greenhouse.io/cashfree
-https://boards.greenhouse.io/acko
-https://boards.greenhouse.io/upgrad
-https://boards.greenhouse.io/games24x7
-https://boards.greenhouse.io/mpl
-https://boards.greenhouse.io/curefit
 https://boards.greenhouse.io/porter
-https://boards.greenhouse.io/sprinto
-https://boards.greenhouse.io/darwinbox
-https://boards.greenhouse.io/hevodata
-https://boards.greenhouse.io/yellowai
-https://boards.greenhouse.io/leenaai
-https://boards.greenhouse.io/gupshup
-https://boards.greenhouse.io/khatabook
-https://boards.greenhouse.io/cars24
-https://boards.greenhouse.io/licious
-https://boards.greenhouse.io/urbancompany
-https://boards.greenhouse.io/ixigo
-https://boards.greenhouse.io/pinelabs
-https://boards.greenhouse.io/smallcase
-https://jobs.lever.co/cred
-https://jobs.lever.co/meesho
+https://boards.greenhouse.io/rubrik
+https://boards.greenhouse.io/landor
+https://boards.greenhouse.io/safariai
+https://boards.greenhouse.io/successkpiinc
 https://jobs.lever.co/paytm
-https://jobs.lever.co/upstox
-https://jobs.lever.co/smallcase
-https://jobs.lever.co/jupiter
-https://jobs.lever.co/groww
-https://jobs.lever.co/zeptonow
-https://jobs.lever.co/spinny
-https://jobs.lever.co/rapido
-https://jobs.lever.co/unacademy
-https://jobs.lever.co/slice
-https://jobs.lever.co/plum
-https://jobs.lever.co/jar-app
-https://jobs.lever.co/weekdayworks
-https://jobs.lever.co/dunzo
-https://jobs.lever.co/nykaa
-https://jobs.lever.co/healthifyme
-https://jobs.lever.co/pharmeasy
-https://jobs.lever.co/practo
-https://jobs.lever.co/kreditbee
+https://jobs.lever.co/meesho
+https://jobs.lever.co/cred
 https://jobs.lever.co/fi
-https://jobs.lever.co/simplilearn
-https://jobs.lever.co/physicswallah
-https://jobs.lever.co/zomato
-https://jobs.lever.co/swiggy
-
-# ── India: AI startups ──
+https://jobs.lever.co/weekdayworks
 https://jobs.ashbyhq.com/sarvam
 https://jobs.ashbyhq.com/composio
 https://jobs.ashbyhq.com/atlan
-https://jobs.ashbyhq.com/krutrim
-https://jobs.ashbyhq.com/plum
-https://jobs.ashbyhq.com/spyne
-https://jobs.ashbyhq.com/unstop
-https://jobs.ashbyhq.com/giga
 https://jobs.ashbyhq.com/bolna
-https://jobs.ashbyhq.com/smallest-ai
-https://jobs.lever.co/haptik
 https://apply.workable.com/lokal-app
 https://apply.workable.com/proarch-3
 https://apply.workable.com/unosecur
-https://apply.workable.com/wokelo
-https://apply.workable.com/spyne
-
-# ── Global AI companies (often have remote or India roles) ──
+https://jobs.smartrecruiters.com/Freshworks
+# global AI
 https://boards.greenhouse.io/anthropic
 https://boards.greenhouse.io/scaleai
 https://boards.greenhouse.io/databricks
@@ -110,21 +45,13 @@ https://jobs.ashbyhq.com/cohere
 https://jobs.ashbyhq.com/replit
 https://jobs.ashbyhq.com/mercor
 https://jobs.ashbyhq.com/lovable
-https://jobs.ashbyhq.com/anysphere   # Cursor
 https://jobs.ashbyhq.com/harvey
 https://jobs.ashbyhq.com/decagon
-https://jobs.ashbyhq.com/clay
-https://jobs.lever.co/mistral
 https://apply.workable.com/huggingface
-
-# ── Remote-first companies ──
+# remote-first
 https://boards.greenhouse.io/gitlab
 https://boards.greenhouse.io/canonical
 https://boards.greenhouse.io/remotecom
-https://boards.greenhouse.io/hubstaff
-https://boards.greenhouse.io/doist
-https://boards.greenhouse.io/safetywing
-https://boards.greenhouse.io/toggl
 https://jobs.ashbyhq.com/deel
 https://jobs.ashbyhq.com/zapier
 https://jobs.ashbyhq.com/posthog
@@ -133,10 +60,7 @@ https://jobs.ashbyhq.com/vercel
 https://jobs.ashbyhq.com/linear
 https://jobs.ashbyhq.com/ramp
 https://jobs.ashbyhq.com/multiverse
-https://jobs.lever.co/hotjar
-https://jobs.lever.co/automattic
-
-# ── Big tech / finance with India internships ──
+# big tech / finance with India offices
 https://boards.greenhouse.io/stripe
 https://boards.greenhouse.io/airbnb
 https://boards.greenhouse.io/figma
@@ -150,17 +74,339 @@ https://boards.greenhouse.io/twilio
 https://boards.greenhouse.io/cloudflare
 https://boards.greenhouse.io/mongodb
 https://boards.greenhouse.io/datadog
-https://boards.greenhouse.io/grammarly
 https://boards.greenhouse.io/brex
 https://jobs.lever.co/palantir
 https://jobs.lever.co/spotify
-https://jobs.smartrecruiters.com/Freshworks
 https://jobs.smartrecruiters.com/Canva
 https://jobs.smartrecruiters.com/ServiceNow
 https://jobs.smartrecruiters.com/Visa
 
-# ── Found in earlier searches ──
-https://job-boards.eu.greenhouse.io/kerneldao
-https://boards.greenhouse.io/successkpiinc
-https://boards.greenhouse.io/safariai
-https://boards.greenhouse.io/landor
+# ── Indian startups & scale-ups (names; looked up automatically) ──
+PhonePe
+Swiggy
+Zomato
+Zepto
+Blinkit
+Flipkart
+Myntra
+Nykaa
+Ola
+Rapido
+Uber India
+Dream11
+Dream Sports
+Games24x7
+MPL
+Unacademy
+upGrad
+PhysicsWallah
+Vedantu
+Scaler
+InterviewBit
+Simplilearn
+Cars24
+Spinny
+CarDekho
+OYO
+MakeMyTrip
+ixigo
+EaseMyTrip
+Urban Company
+Licious
+Country Delight
+FreshToHome
+BigBasket
+Dunzo
+Porter
+Delhivery
+Shiprocket
+Shadowfax
+BlackBuck
+Rivigo
+Udaan
+Jumbotail
+DealShare
+Meesho
+Lenskart
+boAt
+Mamaearth
+Honasa
+Sugar Cosmetics
+Bewakoof
+Snitch
+Pepperfry
+Livspace
+NoBroker
+Housing
+Magicbricks
+Square Yards
+Zolo
+Stanza Living
+PharmEasy
+Tata 1mg
+Practo
+HealthifyMe
+Cult.fit
+Pristyn Care
+Innovaccer
+Qure.ai
+Niramai
+Even Healthcare
+Plum
+Acko
+Digit Insurance
+Ditto
+PolicyBazaar
+Cashfree
+PayU
+Pine Labs
+BharatPe
+Juspay
+Zeta
+Slice
+Jupiter
+Jar
+Fi Money
+KreditBee
+Navi
+Smallcase
+Upstox
+Zerodha
+INDmoney
+Khatabook
+OkCredit
+Vyapar
+Open Financial
+M2P Fintech
+Setu
+Perfios
+Signzy
+IDfy
+Rupeek
+Uni Cards
+OneCard
+CRED
+Groww
+ShareChat
+Moj
+Pocket FM
+Kuku FM
+STAGE
+Eloelo
+Josh
+Dailyhunt
+InShorts
+Koo
+Apna
+WorkIndia
+Instahyre
+Cutshort
+Unstop
+Masai School
+Newton School
+AlmaBetter
+Leap Scholar
+Yocket
+Cuemath
+Toddle
+Teachmint
+Classplus
+Leverage Edu
+Freshworks
+Zoho
+Chargebee
+Postman
+BrowserStack
+Hasura
+Druva
+Whatfix
+Darwinbox
+MindTickle
+Sprinklr
+ThoughtSpot
+Icertis
+Uniphore
+Yellow.ai
+Haptik
+Gupshup
+Exotel
+LeadSquared
+Zluri
+Sprinto
+Scrut Automation
+Hevo Data
+Atlan
+SpotDraft
+Rocketlane
+Everstage
+Zenoti
+CleverTap
+MoEngage
+WebEngage
+Netcore
+Wingify
+VWO
+Capillary
+Unbxd
+Locus
+FarEye
+Shipsy
+Ninjacart
+DeHaat
+AgroStar
+Arya.ag
+Bijak
+Jai Kisan
+Ather Energy
+Ola Electric
+Yulu
+Battery Smart
+ChargeZone
+Log9
+Zetwerk
+Infra.Market
+OfBusiness
+Moglix
+Bizongo
+Vahan
+Spyne
+Krutrim
+Sarvam AI
+Gnani.ai
+Smallest.ai
+Giga ML
+Composio
+Rocket.new
+Emergent
+Neysa
+Ema
+Sprinto
+Truefoundry
+Simplismart
+Fractal
+Tredence
+Mu Sigma
+LatentView
+Sigmoid
+Wokelo
+Unosecur
+CompliVibe
+Lokal
+KukuFM
+GreyOrange
+Addverb
+Skyroot
+Agnikul
+Pixxel
+Digantara
+Ultrahuman
+Noise
+Fireflies
+Rubrik
+Atlassian India
+Salesforce India
+Adobe India
+Intuit India
+Microsoft India
+Google India
+
+# ── Global startups that often hire remote interns ──
+Deel
+Remote
+Oyster
+Rippling
+Gusto
+Airtable
+Retool
+Miro
+Loom
+Calendly
+Grammarly
+Canva
+Webflow
+Framer
+Pitch
+Superhuman
+Intercom
+HubSpot
+Hotjar
+Doist
+Toggl
+Hubstaff
+Automattic
+Buffer
+Ghost
+SafetyWing
+Wise
+Revolut
+Monzo
+Kraken
+Chainlink Labs
+Consensys
+Alchemy
+Polygon
+Ledger
+Scale AI
+Cursor
+Anysphere
+Clay
+Glean
+Writer
+Jasper
+Runway
+Synthesia
+Hugging Face
+Mistral
+Pinecone
+Weights & Biases
+LangChain
+LlamaIndex
+Modal
+Together AI
+Fireworks AI
+Groq
+Character AI
+Midjourney
+Notion
+Figma
+Linear
+Vercel
+Supabase
+PostHog
+Zapier
+Ramp
+Mercury
+Plaid
+Brex
+Navan
+Sezzle
+Faire
+Shopify
+Klaviyo
+Gong
+Clari
+Outreach
+Apollo.io
+Lemlist
+Mixpanel
+Amplitude
+Segment
+Heap
+FullStory
+Pendo
+Typeform
+SurveyMonkey
+Attentive
+Coursera
+Duolingo
+Brilliant
+Khan Academy
+Udemy
+Multiverse
+Andela
+Turing
+Toptal
+Mercor
+Micro1
+Outlier
+Handshake
