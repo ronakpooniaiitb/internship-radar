@@ -1,6 +1,6 @@
 {
-"updated": "2026-11-16 07:57 IST",
-"count": 354,
+"updated": "2026-11-16 21:25 IST",
+"count": 364,
 "dropped": [
 {
 "title": "Accounting Intern",
@@ -137,6 +137,14 @@
 "source": "Greenhouse",
 "why": "excluded word: Developer",
 "url": "https://job-boards.greenhouse.io/togetherai/jobs/5271149007"
+},
+{
+"title": "Compliance Engineer Intern",
+"company": "CertiK",
+"location": "APAC,  Europe",
+"source": "Jobicy",
+"why": "excluded word: Engineer",
+"url": "https://jobicy.com/jobs/153136-compliance-engineer-intern"
 },
 {
 "title": "Analytics Engineer Intern",
@@ -537,6 +545,22 @@
 "source": "Greenhouse",
 "why": "excluded word: Sales Development",
 "url": "https://careers.airbnb.com/positions/8372424?gh_jid=8372424"
+},
+{
+"title": "Security Research Internship",
+"company": "CertiK",
+"location": "USA",
+"source": "Jobicy",
+"why": "excluded word: Security",
+"url": "https://jobicy.com/jobs/155448-security-research-internship"
+},
+{
+"title": "Blockchain Security Expert Intern - AI Track",
+"company": "CertiK",
+"location": "USA",
+"source": "Jobicy",
+"why": "excluded word: Security",
+"url": "https://jobicy.com/jobs/152979-blockchain-security-expert-intern-ai-track"
 },
 {
 "title": "Information Security Engineer, Internship",
@@ -1213,14 +1237,6 @@
 {
 "title": "Software Engineer, Intern",
 "company": "Stripe",
-"location": "Bengaluru",
-"source": "Greenhouse",
-"why": "excluded word: Software",
-"url": "https://stripe.com/jobs/search?gh_jid=8031833"
-},
-{
-"title": "Software Engineer, Intern",
-"company": "Stripe",
 "location": "London",
 "source": "Greenhouse",
 "why": "excluded word: Software",
@@ -1237,6 +1253,14 @@
 {
 "title": "Software Engineer, Intern",
 "company": "Stripe",
+"location": "Bengaluru",
+"source": "Greenhouse",
+"why": "excluded word: Software",
+"url": "https://stripe.com/jobs/search?gh_jid=8031833"
+},
+{
+"title": "Software Engineer, Intern",
+"company": "Stripe",
 "location": "Bucharest",
 "source": "Greenhouse",
 "why": "excluded word: Software",
@@ -1245,18 +1269,18 @@
 {
 "title": "Software Engineer, Intern (Summer)",
 "company": "Stripe",
-"location": "Toronto",
-"source": "Greenhouse",
-"why": "excluded word: Software",
-"url": "https://stripe.com/jobs/search?gh_jid=8130805"
-},
-{
-"title": "Software Engineer, Intern (Summer)",
-"company": "Stripe",
 "location": "San Francisco, Seattle, New York City",
 "source": "Greenhouse",
 "why": "excluded word: Software",
 "url": "https://stripe.com/jobs/search?gh_jid=8128745"
+},
+{
+"title": "Software Engineer, Intern (Summer)",
+"company": "Stripe",
+"location": "Toronto",
+"source": "Greenhouse",
+"why": "excluded word: Software",
+"url": "https://stripe.com/jobs/search?gh_jid=8130805"
 },
 {
 "title": "Software Engineer, Intern (Summer or Winter)",
@@ -1321,6 +1345,14 @@
 "source": "Lever",
 "why": "excluded word: Talent",
 "url": "https://jobs.lever.co/paytm/95eadc2b-27bf-40fe-b6e6-93aaeadd08f7"
+},
+{
+"title": "Talent Acquisition Intern - Remote Europe",
+"company": "Reedsy",
+"location": "Europe",
+"source": "Jobicy",
+"why": "excluded word: Talent",
+"url": "https://jobicy.com/jobs/161261-talent-acquisition-intern-remote-europe"
 },
 {
 "title": "Talent & Recruitment Internship",
@@ -1731,6 +1763,22 @@
 "url": "https://jobs.ashbyhq.com/ramp/b87e898f-8d8b-447d-b3d5-9073ccf7d109"
 },
 {
+"title": "Growth Marketing Intern (Discovery)",
+"company": "Reedsy",
+"location": "Canada,  France,  Netherlands,  Portugal,  Spain,  UK,  USA",
+"source": "Jobicy",
+"why": "remote, but only for another region",
+"url": "https://jobicy.com/jobs/162288-growth-marketing-intern-discovery"
+},
+{
+"title": "Growth Marketing Intern",
+"company": "Reedsy",
+"location": "Canada,  France,  Netherlands,  Portugal,  Spain,  UK,  USA",
+"source": "Jobicy",
+"why": "remote, but only for another region",
+"url": "https://jobicy.com/jobs/161266-growth-marketing-intern"
+},
+{
 "title": "Marketing Growth & Communications Intern",
 "company": "Sezzle",
 "location": "Mexico, Remote",
@@ -1937,6 +1985,14 @@
 "source": "Himalayas",
 "why": "role not in your list",
 "url": "https://himalayas.app/companies/anavation/jobs/computer-science-internship-summer-2027-6225405403?utm_source=api"
+},
+{
+"title": "Content & Communications Intern",
+"company": "Binance",
+"location": "Philippines",
+"source": "Jobicy",
+"why": "role not in your list",
+"url": "https://jobicy.com/jobs/161030-content-communications-intern"
 },
 {
 "title": "India Intern",
@@ -2179,6 +2235,14 @@
 "url": "https://himalayas.app/companies/grow-financial/jobs/internal-communication-intern-spring-2027?utm_source=api"
 },
 {
+"title": "Communications and Marketing Intern",
+"company": "IN-VR",
+"location": "Egypt",
+"source": "Himalayas",
+"why": "role not in your list",
+"url": "https://himalayas.app/companies/in-vr/jobs/communications-and-marketing-intern-1192763488?utm_source=api"
+},
+{
 "title": "Internship",
 "company": "Jasya Consultancy",
 "location": "India",
@@ -2201,14 +2265,6 @@
 "source": "Himalayas",
 "why": "role not in your list",
 "url": "https://himalayas.app/companies/jobsforlebanon/jobs/architectural-intern?utm_source=api"
-},
-{
-"title": "Communications Intern",
-"company": "Keeper Security, Inc.",
-"location": "United States",
-"source": "Himalayas",
-"why": "role not in your list",
-"url": "https://himalayas.app/companies/keeper-security-inc/jobs/communications-intern?utm_source=api"
 },
 {
 "title": "Client Service Intern",
@@ -2267,7 +2323,7 @@
 "url": "https://apply.workable.com/j/F22BE8359C"
 },
 {
-"title": "Social Media Content Marketer - Intern",
+"title": "Social Media Content Marketer - Intern (Hindi)",
 "company": "Lokal App",
 "location": "Bengaluru, Karnataka, India",
 "source": "Workable",
@@ -2371,6 +2427,22 @@
 "url": "https://jobs.ashbyhq.com/ramp/b39ceb08-a0a7-4f8b-a760-2fb88e209956"
 },
 {
+"title": "Content Marketing Intern",
+"company": "Reedsy",
+"location": "Canada,  France,  Netherlands,  UK,  USA",
+"source": "Jobicy",
+"why": "role not in your list",
+"url": "https://jobicy.com/jobs/161349-content-marketing-intern"
+},
+{
+"title": "Community Intern (Reedsy Learning)",
+"company": "Reedsy",
+"location": "Canada,  France,  Netherlands,  Spain,  UK,  USA",
+"source": "Jobicy",
+"why": "role not in your list",
+"url": "https://jobicy.com/jobs/161092-community-intern-reedsy-learning"
+},
+{
 "title": "Cohort 0",
 "company": "replit",
 "location": "Foster City, CA",
@@ -2409,6 +2481,14 @@
 "source": "Greenhouse",
 "why": "role not in your list",
 "url": "https://www.rubrik.com/company/careers/departments/job.8305308?gh_jid=8305308"
+},
+{
+"title": "Product Marketing Internship- Spring 2027",
+"company": "Rush Street Interactive",
+"location": "USA",
+"source": "Jobicy",
+"why": "role not in your list",
+"url": "https://jobicy.com/jobs/162520-product-marketing-internship-spring-2027"
 },
 {
 "title": "Marketing internship (brand & communication)",
@@ -2709,18 +2789,18 @@
 {
 "title": "Data Analyst, Intern",
 "company": "Stripe",
-"location": "New York, Seattle, South San Francisco HQ",
-"source": "Greenhouse",
-"why": "role not in your list",
-"url": "https://stripe.com/jobs/search?gh_jid=8194291"
-},
-{
-"title": "Data Analyst, Intern",
-"company": "Stripe",
 "location": "Toronto",
 "source": "Greenhouse",
 "why": "role not in your list",
 "url": "https://stripe.com/jobs/search?gh_jid=8194287"
+},
+{
+"title": "Data Analyst, Intern",
+"company": "Stripe",
+"location": "New York, Seattle, South San Francisco HQ",
+"source": "Greenhouse",
+"why": "role not in your list",
+"url": "https://stripe.com/jobs/search?gh_jid=8194291"
 },
 {
 "title": "Product Design Intern",
