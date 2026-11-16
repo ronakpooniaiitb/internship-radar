@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15 20:27 IST",
+"updated": "2026-11-16 07:57 IST",
 "count": 354,
 "dropped": [
 {
@@ -289,6 +289,14 @@
 "source": "Himalayas",
 "why": "excluded word: Human Resources",
 "url": "https://himalayas.app/companies/peakflo/jobs/human-resources-hr-intern-paid-india-remote?utm_source=api"
+},
+{
+"title": "Coordinator, Legal Support (Intern)",
+"company": "Cogstate",
+"location": "Australia",
+"source": "Jobicy",
+"why": "excluded word: Legal",
+"url": "https://jobicy.com/jobs/162460-coordinator-legal-support-intern"
 },
 {
 "title": "Legal Intern (Summer 2027)",
@@ -1721,14 +1729,6 @@
 "source": "Ashby",
 "why": "remote, but only for another region",
 "url": "https://jobs.ashbyhq.com/ramp/b87e898f-8d8b-447d-b3d5-9073ccf7d109"
-},
-{
-"title": "Growth Marketing Intern (Discovery)",
-"company": "Reedsy",
-"location": "Canada,  France,  Netherlands,  Portugal,  Spain,  UK,  USA",
-"source": "Jobicy",
-"why": "remote, but only for another region",
-"url": "https://jobicy.com/jobs/162288-growth-marketing-intern-discovery"
 },
 {
 "title": "Marketing Growth & Communications Intern",
