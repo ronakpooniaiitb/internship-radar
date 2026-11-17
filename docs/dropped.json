@@ -1,6 +1,6 @@
 {
-"updated": "2026-11-17 07:54 IST",
-"count": 363,
+"updated": "2026-11-17 19:59 IST",
+"count": 359,
 "dropped": [
 {
 "title": "Accounting Intern",
@@ -81,14 +81,6 @@
 "source": "Greenhouse",
 "why": "excluded word: Designer",
 "url": "https://careers.duolingo.com/jobs/8933791002?gh_jid=8933791002"
-},
-{
-"title": "Product Designer Intern",
-"company": "Lokal App",
-"location": "Bengaluru, Karnataka, India",
-"source": "Workable",
-"why": "excluded word: Designer",
-"url": "https://apply.workable.com/j/CB2EDD7186"
 },
 {
 "title": "Product Designer, Internship",
@@ -501,18 +493,18 @@
 {
 "title": "PhD Data Scientist, Intern",
 "company": "Stripe",
-"location": "New York, Seattle, South San Francisco HQ",
-"source": "Greenhouse",
-"why": "excluded word: PhD",
-"url": "https://stripe.com/jobs/search?gh_jid=8194283"
-},
-{
-"title": "PhD Data Scientist, Intern",
-"company": "Stripe",
 "location": "Toronto",
 "source": "Greenhouse",
 "why": "excluded word: PhD",
 "url": "https://stripe.com/jobs/search?gh_jid=8194285"
+},
+{
+"title": "PhD Data Scientist, Intern",
+"company": "Stripe",
+"location": "New York, Seattle, South San Francisco HQ",
+"source": "Greenhouse",
+"why": "excluded word: PhD",
+"url": "https://stripe.com/jobs/search?gh_jid=8194283"
 },
 {
 "title": "PhD Machine Learning Engineer, Intern",
@@ -553,14 +545,6 @@
 "source": "Greenhouse",
 "why": "excluded word: Sales Development",
 "url": "https://careers.airbnb.com/positions/8372424?gh_jid=8372424"
-},
-{
-"title": "Security Research Internship",
-"company": "CertiK",
-"location": "USA",
-"source": "Jobicy",
-"why": "excluded word: Security",
-"url": "https://jobicy.com/jobs/155448-security-research-internship"
 },
 {
 "title": "Information Security Engineer, Internship",
@@ -677,18 +661,18 @@
 {
 "title": "Software Engineer Intern",
 "company": "Coinbase",
-"location": "Hybrid - San Francisco, CA",
-"source": "Greenhouse",
-"why": "excluded word: Software",
-"url": "https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315"
-},
-{
-"title": "Software Engineer Intern",
-"company": "Coinbase",
 "location": "Hybrid - Singapore",
 "source": "Greenhouse",
 "why": "excluded word: Software",
 "url": "https://www.coinbase.com/careers/positions/8175873?gh_jid=8175873"
+},
+{
+"title": "Software Engineer Intern",
+"company": "Coinbase",
+"location": "Hybrid - San Francisco, CA",
+"source": "Greenhouse",
+"why": "excluded word: Software",
+"url": "https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315"
 },
 {
 "title": "Software Engineering Intern (2027)",
@@ -741,18 +725,18 @@
 {
 "title": "Software Engineering Intern",
 "company": "Datadog",
-"location": "Paris, France",
-"source": "Greenhouse",
-"why": "excluded word: Software",
-"url": "https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186"
-},
-{
-"title": "Software Engineering Intern",
-"company": "Datadog",
 "location": "Madrid, Spain",
 "source": "Greenhouse",
 "why": "excluded word: Software",
 "url": "https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161"
+},
+{
+"title": "Software Engineering Intern",
+"company": "Datadog",
+"location": "Paris, France",
+"source": "Greenhouse",
+"why": "excluded word: Software",
+"url": "https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186"
 },
 {
 "title": "Software Engineer Intern (London, United Kingdom) (Summer 2027)",
@@ -1237,10 +1221,10 @@
 {
 "title": "Software Engineer, Intern",
 "company": "Stripe",
-"location": "Bengaluru",
+"location": "London",
 "source": "Greenhouse",
 "why": "excluded word: Software",
-"url": "https://stripe.com/jobs/search?gh_jid=8031833"
+"url": "https://stripe.com/jobs/search?gh_jid=8130867"
 },
 {
 "title": "Software Engineer, Intern",
@@ -1253,10 +1237,10 @@
 {
 "title": "Software Engineer, Intern",
 "company": "Stripe",
-"location": "London",
+"location": "Bengaluru",
 "source": "Greenhouse",
 "why": "excluded word: Software",
-"url": "https://stripe.com/jobs/search?gh_jid=8130867"
+"url": "https://stripe.com/jobs/search?gh_jid=8031833"
 },
 {
 "title": "Software Engineer, Intern",
@@ -1297,14 +1281,6 @@
 "source": "Lever",
 "why": "excluded word: Software",
 "url": "https://jobs.lever.co/weekdayworks/a86efff4-1c2e-43fc-8ecb-dc8f873db2f1"
-},
-{
-"title": "Talent Acquisition Intern",
-"company": "Lokal App",
-"location": "Bengaluru, Karnataka, India",
-"source": "Workable",
-"why": "excluded word: Talent",
-"url": "https://apply.workable.com/j/558B0EF1A3"
 },
 {
 "title": "Intern - Talent Acquisition",
@@ -1369,14 +1345,6 @@
 "source": "Greenhouse",
 "why": "excluded word: Tax",
 "url": "https://www.coinbase.com/careers/positions/8175453?gh_jid=8175453"
-},
-{
-"title": "UX Design - Intern",
-"company": "Glance",
-"location": "Bengaluru",
-"source": "Greenhouse",
-"why": "excluded word: UX",
-"url": "https://job-boards.greenhouse.io/glance/jobs/7916115"
 },
 {
 "title": "Experience Team – UX Research Internships – Summer 2027",
@@ -1931,14 +1899,6 @@
 "url": "https://himalayas.app/companies/a-n-publishing/jobs/international-editor-internship-9285103462?utm_source=api"
 },
 {
-"title": "Marketing Intern – Affiliate & Digital Marketing (m/f/d)",
-"company": "AffiliateLandscape",
-"location": "Berlin",
-"source": "Arbeitnow",
-"why": "role not in your list",
-"url": "https://www.arbeitnow.com/jobs/companies/affiliatelandscape/marketing-intern-affiliate-digital-marketing-berlin-494406"
-},
-{
 "title": "Internal Communications and Digital Marketing Intern",
 "company": "Agilent Technologies",
 "location": "Spain",
@@ -2033,6 +1993,14 @@
 "source": "Himalayas",
 "why": "role not in your list",
 "url": "https://himalayas.app/companies/certified-group/jobs/future-internship-opportunities-2027?utm_source=api"
+},
+{
+"title": "People Team Intern, EMEA Employment Compliance & Manager Enablement (Spring 2027)",
+"company": "Cloudflare",
+"location": "In-Office",
+"source": "Greenhouse",
+"why": "role not in your list",
+"url": "https://boards.greenhouse.io/cloudflare/jobs/8383449?gh_jid=8383449"
 },
 {
 "title": "Research Internship (Winter 2027)",
@@ -2259,14 +2227,6 @@
 "url": "https://himalayas.app/companies/keeper-security-inc/jobs/communications-intern?utm_source=api"
 },
 {
-"title": "Praktikum Content & AI (m/w/d)",
-"company": "KLUUU",
-"location": "Berlin",
-"source": "Arbeitnow",
-"why": "role not in your list",
-"url": "https://www.arbeitnow.com/jobs/companies/kluuu/praktikum-content-ai-berlin-13325"
-},
-{
 "title": "Client Service Intern",
 "company": "Landor",
 "location": "Shanghai",
@@ -2281,6 +2241,22 @@
 "source": "Greenhouse",
 "why": "role not in your list",
 "url": "https://job-boards.greenhouse.io/landor/jobs/8190084"
+},
+{
+"title": "Springboard Internship - Architecture",
+"company": "Landor",
+"location": "Mumbai",
+"source": "Greenhouse",
+"why": "role not in your list",
+"url": "https://job-boards.greenhouse.io/landor/jobs/8354827"
+},
+{
+"title": "Springboard Internship - Client Services",
+"company": "Landor",
+"location": "Delhi",
+"source": "Greenhouse",
+"why": "role not in your list",
+"url": "https://job-boards.greenhouse.io/landor/jobs/8354831"
 },
 {
 "title": "Springboard Internship - Creative 2D",
@@ -2473,14 +2449,6 @@
 "source": "Greenhouse",
 "why": "role not in your list",
 "url": "https://www.rubrik.com/company/careers/departments/job.8305308?gh_jid=8305308"
-},
-{
-"title": "Product Marketing Internship- Spring 2027",
-"company": "Rush Street Interactive",
-"location": "USA",
-"source": "Jobicy",
-"why": "role not in your list",
-"url": "https://jobicy.com/jobs/162520-product-marketing-internship-spring-2027"
 },
 {
 "title": "Marketing internship (brand & communication)",
@@ -2781,18 +2749,18 @@
 {
 "title": "Data Analyst, Intern",
 "company": "Stripe",
-"location": "New York, Seattle, South San Francisco HQ",
-"source": "Greenhouse",
-"why": "role not in your list",
-"url": "https://stripe.com/jobs/search?gh_jid=8194291"
-},
-{
-"title": "Data Analyst, Intern",
-"company": "Stripe",
 "location": "Toronto",
 "source": "Greenhouse",
 "why": "role not in your list",
 "url": "https://stripe.com/jobs/search?gh_jid=8194287"
+},
+{
+"title": "Data Analyst, Intern",
+"company": "Stripe",
+"location": "New York, Seattle, South San Francisco HQ",
+"source": "Greenhouse",
+"why": "role not in your list",
+"url": "https://stripe.com/jobs/search?gh_jid=8194291"
 },
 {
 "title": "Product Design Intern",
@@ -2875,12 +2843,12 @@
 "url": "https://jobs.lever.co/weekdayworks/1fc8b30b-8e31-41f0-a449-5c7f25577a3a"
 },
 {
-"title": "Senior Business Analyst - Versicherung",
-"company": "Coopers Group AG",
-"location": "Zürich",
-"source": "Arbeitnow",
-"why": "senior title",
-"url": "https://www.arbeitnow.ch/jobs/companies/coopers-group-ag/senior-business-analyst-versicherung-zurich-461493"
+"title": "SDR Intern",
+"company": "weekdayworks",
+"location": "Bengaluru",
+"source": "Lever",
+"why": "role not in your list",
+"url": "https://jobs.lever.co/weekdayworks/ed366116-2c23-48a9-9c8f-a6d46686ee67"
 },
 {
 "title": "Sr Outbound Product Manager Intern (MBA Summer 2027)",
