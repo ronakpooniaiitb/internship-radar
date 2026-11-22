@@ -1,6 +1,6 @@
 {
-"updated": "2026-11-22 07:50 IST",
-"count": 373,
+"updated": "2026-11-22 19:42 IST",
+"count": 375,
 "dropped": [
 {
 "title": "Accounting Intern",
@@ -433,14 +433,6 @@
 "source": "SmartRecruiters",
 "why": "excluded word: MBA",
 "url": "https://jobs.smartrecruiters.com/ServiceNow/744000162629690"
-},
-{
-"title": "Product Management MBA Intern",
-"company": "Teamworks",
-"location": "USA",
-"source": "Jobicy",
-"why": "excluded word: MBA",
-"url": "https://jobicy.com/jobs/163659-product-management-mba-intern"
 },
 {
 "title": "Applied AI/ML Scientist, Intern - Winter 2027",
@@ -1433,6 +1425,14 @@
 "source": "Greenhouse",
 "why": "excluded word: Tax",
 "url": "https://www.coinbase.com/careers/positions/8175453?gh_jid=8175453"
+},
+{
+"title": "Global Tax Intern",
+"company": "Ensono",
+"location": "US Only",
+"source": "RemoteOK",
+"why": "excluded word: Tax",
+"url": "https://remoteOK.com/remote-jobs/remote-global-tax-intern-ensono-1137943"
 },
 {
 "title": "2027 - Tax Intern, New York City",
@@ -2483,6 +2483,14 @@
 "url": "https://www.mongodb.com/careers/job/?gh_jid=8346144"
 },
 {
+"title": "Jahrespraktikum:Content Agentur",
+"company": "MOVYNG MEDIA UG",
+"location": "Darmstadt",
+"source": "Arbeitnow",
+"why": "role not in your list",
+"url": "https://www.arbeitnow.com/jobs/companies/movyng-media-ug/jahrespraktikumcontent-agentur-darmstadt-433151"
+},
+{
 "title": "Product Design Intern (Summer 2027)",
 "company": "notion",
 "location": "New York, New York",
@@ -2873,6 +2881,14 @@
 "source": "Himalayas",
 "why": "role not in your list",
 "url": "https://himalayas.app/companies/simplygood/jobs/marketing-internship-content-creation-6-months-internship?utm_source=api"
+},
+{
+"title": "Praktikant:in Marketing und Community Management",
+"company": "SofaConcerts GmbH",
+"location": "Hamburg",
+"source": "Arbeitnow",
+"why": "role not in your list",
+"url": "https://www.arbeitnow.com/jobs/companies/sofaconcerts-gmbh/praktikantin-marketing-und-community-management-hamburg-382192"
 },
 {
 "title": "Data Analyst, Intern",
