@@ -1,6 +1,6 @@
 {
-"updated": "2026-11-22 19:42 IST",
-"count": 375,
+"updated": "2026-11-23 07:54 IST",
+"count": 373,
 "dropped": [
 {
 "title": "Accounting Intern",
@@ -307,6 +307,14 @@
 "url": "https://job-boards.greenhouse.io/sezzle/jobs/7750229003"
 },
 {
+"title": "Growth Engineer Intern",
+"company": "Snezzi",
+"location": "India",
+"source": "Himalayas",
+"why": "excluded word: Engineer",
+"url": "https://himalayas.app/companies/snezzi/jobs/growth-engineer-intern?utm_source=api"
+},
+{
 "title": "Integration Reliability Engineer Intern, Technical Operations",
 "company": "Stripe",
 "location": "Singapore",
@@ -353,14 +361,6 @@
 "source": "Himalayas",
 "why": "excluded word: Human Resources",
 "url": "https://himalayas.app/companies/peakflo/jobs/human-resources-hr-intern-paid-india-remote?utm_source=api"
-},
-{
-"title": "Human Resources Internship",
-"company": "TheRightDoctors",
-"location": "India",
-"source": "Himalayas",
-"why": "excluded word: Human Resources",
-"url": "https://himalayas.app/companies/therightdoctors/jobs/human-resources-internship?utm_source=api"
 },
 {
 "title": "Legal Intern (Summer 2027)",
@@ -565,18 +565,26 @@
 {
 "title": "PhD Data Scientist, Intern",
 "company": "Stripe",
+"location": "Toronto",
+"source": "Greenhouse",
+"why": "excluded word: PhD",
+"url": "https://stripe.com/jobs/search?gh_jid=8194285"
+},
+{
+"title": "PhD Data Scientist, Intern",
+"company": "Stripe",
 "location": "New York, Seattle, South San Francisco HQ",
 "source": "Greenhouse",
 "why": "excluded word: PhD",
 "url": "https://stripe.com/jobs/search?gh_jid=8194283"
 },
 {
-"title": "PhD Data Scientist, Intern",
+"title": "PhD Machine Learning Engineer, Intern",
 "company": "Stripe",
-"location": "Toronto",
+"location": "San Francisco, New York City, Seattle",
 "source": "Greenhouse",
 "why": "excluded word: PhD",
-"url": "https://stripe.com/jobs/search?gh_jid=8194285"
+"url": "https://stripe.com/jobs/search?gh_jid=8328662"
 },
 {
 "title": "PhD Machine Learning Engineer, Intern",
@@ -587,12 +595,12 @@
 "url": "https://stripe.com/jobs/search?gh_jid=8328664"
 },
 {
-"title": "PhD Machine Learning Engineer, Intern",
-"company": "Stripe",
-"location": "San Francisco, New York City, Seattle",
-"source": "Greenhouse",
-"why": "excluded word: PhD",
-"url": "https://stripe.com/jobs/search?gh_jid=8328662"
+"title": "Recruitment Coordinator Intern",
+"company": "e-Careers Limited",
+"location": "United Kingdom",
+"source": "Himalayas",
+"why": "excluded word: Recruit",
+"url": "https://himalayas.app/companies/e-careers-limited/jobs/recruitment-coordinator-intern?utm_source=api"
 },
 {
 "title": "Sales Development Intern, Services, France",
@@ -833,6 +841,14 @@
 "source": "Greenhouse",
 "why": "excluded word: Software",
 "url": "https://boards.greenhouse.io/figma/jobs/6143238004?gh_jid=6143238004"
+},
+{
+"title": "Virtual Software Trainer Internship / Video Editor Internship",
+"company": "Gig Centric",
+"location": "United States",
+"source": "Himalayas",
+"why": "excluded word: Software",
+"url": "https://himalayas.app/companies/gig-centric/jobs/virtual-software-trainer-internship-video-editor-internship-2821409819?utm_source=api"
 },
 {
 "title": "Associate Software Development Engineer (SDE) Intern",
@@ -1301,14 +1317,6 @@
 {
 "title": "Software Engineer, Intern",
 "company": "Stripe",
-"location": "London",
-"source": "Greenhouse",
-"why": "excluded word: Software",
-"url": "https://stripe.com/jobs/search?gh_jid=8130867"
-},
-{
-"title": "Software Engineer, Intern",
-"company": "Stripe",
 "location": "Singapore",
 "source": "Greenhouse",
 "why": "excluded word: Software",
@@ -1325,6 +1333,14 @@
 {
 "title": "Software Engineer, Intern",
 "company": "Stripe",
+"location": "London",
+"source": "Greenhouse",
+"why": "excluded word: Software",
+"url": "https://stripe.com/jobs/search?gh_jid=8130867"
+},
+{
+"title": "Software Engineer, Intern",
+"company": "Stripe",
 "location": "Bucharest",
 "source": "Greenhouse",
 "why": "excluded word: Software",
@@ -1333,18 +1349,18 @@
 {
 "title": "Software Engineer, Intern (Summer)",
 "company": "Stripe",
-"location": "Toronto",
-"source": "Greenhouse",
-"why": "excluded word: Software",
-"url": "https://stripe.com/jobs/search?gh_jid=8130805"
-},
-{
-"title": "Software Engineer, Intern (Summer)",
-"company": "Stripe",
 "location": "San Francisco, Seattle, New York City",
 "source": "Greenhouse",
 "why": "excluded word: Software",
 "url": "https://stripe.com/jobs/search?gh_jid=8128745"
+},
+{
+"title": "Software Engineer, Intern (Summer)",
+"company": "Stripe",
+"location": "Toronto",
+"source": "Greenhouse",
+"why": "excluded word: Software",
+"url": "https://stripe.com/jobs/search?gh_jid=8130805"
 },
 {
 "title": "Software Engineer, Intern (Summer or Winter)",
@@ -1987,14 +2003,6 @@
 "url": "https://himalayas.app/companies/simplygood/jobs/operations-internship-6-months-internship?utm_source=api"
 },
 {
-"title": "Marketing & USA Sales / Business Development Intern",
-"company": "SyncVR Medical",
-"location": "United States",
-"source": "Himalayas",
-"why": "remote, but only for another region",
-"url": "https://himalayas.app/companies/syncvr-medical/jobs/marketing-usa-sales-business-development-intern?utm_source=api"
-},
-{
 "title": "International Editor (Internship)",
 "company": "A.N. Publishing",
 "location": "United States",
@@ -2051,6 +2059,14 @@
 "url": "https://himalayas.app/companies/bowergroupasia/jobs/india-intern?utm_source=api"
 },
 {
+"title": "Virtual Journalism Internship",
+"company": "Braathe Enterprises",
+"location": "United States",
+"source": "Himalayas",
+"why": "role not in your list",
+"url": "https://himalayas.app/companies/braathe-enterprises/jobs/virtual-journalism-internship-6215884752?utm_source=api"
+},
+{
 "title": "Internship (6 months) – Global Client Solutions – Singapore",
 "company": "Careers at KKR",
 "location": "Singapore",
@@ -2065,14 +2081,6 @@
 "source": "Greenhouse",
 "why": "role not in your list",
 "url": "https://www.kkr.com/careers/career-opportunities/post?gh_jid=5659824004"
-},
-{
-"title": "Future Internship Opportunities 2027",
-"company": "Certified Group",
-"location": "Canada | United States",
-"source": "Himalayas",
-"why": "role not in your list",
-"url": "https://himalayas.app/companies/certified-group/jobs/future-internship-opportunities-2027?utm_source=api"
 },
 {
 "title": "People Team Intern, EMEA Employment Compliance & Manager Enablement (Spring 2027)",
@@ -2227,6 +2235,14 @@
 "url": "https://himalayas.app/companies/dyverse/jobs/search-engine-optimization-intern-spring-2027?utm_source=api"
 },
 {
+"title": "Customer Support Specialist (Contract or Intern)",
+"company": "Eight Sleep",
+"location": "USA",
+"source": "Jobicy",
+"why": "role not in your list",
+"url": "https://jobicy.com/jobs/163855-customer-support-specialist-contract-or-intern"
+},
+{
 "title": "Join our Internship Community",
 "company": "Feedzai",
 "location": "United States",
@@ -2313,14 +2329,6 @@
 "source": "Himalayas",
 "why": "role not in your list",
 "url": "https://himalayas.app/companies/jobsforlebanon/jobs/architectural-intern?utm_source=api"
-},
-{
-"title": "Communications Intern",
-"company": "Keeper Security, Inc.",
-"location": "United States",
-"source": "Himalayas",
-"why": "role not in your list",
-"url": "https://himalayas.app/companies/keeper-security-inc/jobs/communications-intern?utm_source=api"
 },
 {
 "title": "Client Service Intern",
@@ -2483,14 +2491,6 @@
 "url": "https://www.mongodb.com/careers/job/?gh_jid=8346144"
 },
 {
-"title": "Jahrespraktikum:Content Agentur",
-"company": "MOVYNG MEDIA UG",
-"location": "Darmstadt",
-"source": "Arbeitnow",
-"why": "role not in your list",
-"url": "https://www.arbeitnow.com/jobs/companies/movyng-media-ug/jahrespraktikumcontent-agentur-darmstadt-433151"
-},
-{
 "title": "Product Design Intern (Summer 2027)",
 "company": "notion",
 "location": "New York, New York",
@@ -2545,6 +2545,14 @@
 "source": "Ashby",
 "why": "role not in your list",
 "url": "https://jobs.ashbyhq.com/replit/2c147ccb-2557-40f8-aab9-64422cef220c"
+},
+{
+"title": "Research Intern",
+"company": "Ritual",
+"location": "Anywhere in the World",
+"source": "We Work Remotely",
+"why": "role not in your list",
+"url": "https://weworkremotely.com/remote-jobs/ritual-research-intern"
 },
 {
 "title": "Corporate Finance Intern (Summer 2027)",
@@ -2883,12 +2891,12 @@
 "url": "https://himalayas.app/companies/simplygood/jobs/marketing-internship-content-creation-6-months-internship?utm_source=api"
 },
 {
-"title": "Praktikant:in Marketing und Community Management",
-"company": "SofaConcerts GmbH",
-"location": "Hamburg",
-"source": "Arbeitnow",
+"title": "Data Analyst, Intern",
+"company": "Stripe",
+"location": "New York, Seattle, South San Francisco HQ",
+"source": "Greenhouse",
 "why": "role not in your list",
-"url": "https://www.arbeitnow.com/jobs/companies/sofaconcerts-gmbh/praktikantin-marketing-und-community-management-hamburg-382192"
+"url": "https://stripe.com/jobs/search?gh_jid=8194291"
 },
 {
 "title": "Data Analyst, Intern",
@@ -2897,14 +2905,6 @@
 "source": "Greenhouse",
 "why": "role not in your list",
 "url": "https://stripe.com/jobs/search?gh_jid=8194287"
-},
-{
-"title": "Data Analyst, Intern",
-"company": "Stripe",
-"location": "New York, Seattle, South San Francisco HQ",
-"source": "Greenhouse",
-"why": "role not in your list",
-"url": "https://stripe.com/jobs/search?gh_jid=8194291"
 },
 {
 "title": "Product Design Intern",
@@ -2937,22 +2937,6 @@
 "source": "Himalayas",
 "why": "role not in your list",
 "url": "https://himalayas.app/companies/tinymind-labs/jobs/internship?utm_source=api"
-},
-{
-"title": "Pflichtpraktikum Social Media und Content Marketing (m/w/d)",
-"company": "TRIONE",
-"location": "Berlin",
-"source": "Arbeitnow",
-"why": "role not in your list",
-"url": "https://www.arbeitnow.com/jobs/companies/trione/pflichtpraktikum-social-media-und-content-marketing-berlin-245714"
-},
-{
-"title": "Das Gesicht unserer Brand auf TikTok",
-"company": "TRIONE",
-"location": "Berlin",
-"source": "Arbeitnow",
-"why": "role not in your list",
-"url": "https://www.arbeitnow.com/jobs/companies/trione/das-gesicht-unserer-brand-auf-tiktok-berlin-445866"
 },
 {
 "title": "Data Entry Intern",
