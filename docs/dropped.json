@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24 07:55 IST",
+"updated": "2026-11-24 20:00 IST",
 "count": 373,
 "dropped": [
 {
@@ -813,18 +813,18 @@
 {
 "title": "Software Engineering Intern",
 "company": "Datadog",
-"location": "Madrid, Spain",
-"source": "Greenhouse",
-"why": "excluded word: Software",
-"url": "https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161"
-},
-{
-"title": "Software Engineering Intern",
-"company": "Datadog",
 "location": "Paris, France",
 "source": "Greenhouse",
 "why": "excluded word: Software",
 "url": "https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186"
+},
+{
+"title": "Software Engineering Intern",
+"company": "Datadog",
+"location": "Madrid, Spain",
+"source": "Greenhouse",
+"why": "excluded word: Software",
+"url": "https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161"
 },
 {
 "title": "Software Engineer Intern (London, United Kingdom) (Summer 2027)",
@@ -929,14 +929,6 @@
 "source": "Lever",
 "why": "excluded word: Software",
 "url": "https://jobs.lever.co/palantir/1b6f1d82-d459-4dea-8bc2-8d2ffe6f881a"
-},
-{
-"title": "Forward Deployed Software Engineer, Internship - AUS Government",
-"company": "palantir",
-"location": "Sydney, Australia",
-"source": "Lever",
-"why": "excluded word: Software",
-"url": "https://jobs.lever.co/palantir/395a4483-fc3d-4b77-a500-501923fd0976"
 },
 {
 "title": "Forward Deployed Software Engineer, Internship - Commercial",
@@ -1301,10 +1293,10 @@
 {
 "title": "Software Engineer, Intern",
 "company": "Stripe",
-"location": "Bengaluru",
+"location": "London",
 "source": "Greenhouse",
 "why": "excluded word: Software",
-"url": "https://stripe.com/jobs/search?gh_jid=8031833"
+"url": "https://stripe.com/jobs/search?gh_jid=8130867"
 },
 {
 "title": "Software Engineer, Intern",
@@ -1317,10 +1309,10 @@
 {
 "title": "Software Engineer, Intern",
 "company": "Stripe",
-"location": "London",
+"location": "Bengaluru",
 "source": "Greenhouse",
 "why": "excluded word: Software",
-"url": "https://stripe.com/jobs/search?gh_jid=8130867"
+"url": "https://stripe.com/jobs/search?gh_jid=8031833"
 },
 {
 "title": "Software Engineer, Intern",
@@ -2515,6 +2507,14 @@
 "url": "https://jobs.lever.co/palantir/7fa0ceca-c30e-48de-9b27-f98469c374f3"
 },
 {
+"title": "Learning Experience Design Intern",
+"company": "paytm",
+"location": "Noida, Uttar Pradesh",
+"source": "Lever",
+"why": "role not in your list",
+"url": "https://jobs.lever.co/paytm/c8886602-f1b7-4c08-b181-f4d36b2d0e80"
+},
+{
 "title": "Organic Search (SEO & Content Marketing) Intern, Fall 2025",
 "company": "Power Digital Marketing",
 "location": "United States",
@@ -2885,26 +2885,18 @@
 {
 "title": "Data Analyst, Intern",
 "company": "Stripe",
-"location": "New York, Seattle, South San Francisco HQ",
-"source": "Greenhouse",
-"why": "role not in your list",
-"url": "https://stripe.com/jobs/search?gh_jid=8194291"
-},
-{
-"title": "Data Analyst, Intern",
-"company": "Stripe",
 "location": "Toronto",
 "source": "Greenhouse",
 "why": "role not in your list",
 "url": "https://stripe.com/jobs/search?gh_jid=8194287"
 },
 {
-"title": "Product Design Intern",
+"title": "Data Analyst, Intern",
 "company": "Stripe",
-"location": "Toronto",
+"location": "New York, Seattle, South San Francisco HQ",
 "source": "Greenhouse",
 "why": "role not in your list",
-"url": "https://stripe.com/jobs/search?gh_jid=8332683"
+"url": "https://stripe.com/jobs/search?gh_jid=8194291"
 },
 {
 "title": "Product Design Intern",
@@ -2913,6 +2905,14 @@
 "source": "Greenhouse",
 "why": "role not in your list",
 "url": "https://stripe.com/jobs/search?gh_jid=8332681"
+},
+{
+"title": "Product Design Intern",
+"company": "Stripe",
+"location": "Toronto",
+"source": "Greenhouse",
+"why": "role not in your list",
+"url": "https://stripe.com/jobs/search?gh_jid=8332683"
 },
 {
 "title": "TSS Internship Program",
