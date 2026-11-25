@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-24 20:00 IST",
- "count": 5,
- "scanned_postings": 12685,
+ "updated": "2026-11-25 07:57 IST",
+ "count": 4,
+ "scanned_postings": 12785,
  "sources_ok": 165,
  "sources_total": 388,
  "jobs": [
@@ -72,26 +72,6 @@
    "notes": [
     "Seems to be for 2027 graduates",
     "Check: mentions mba"
-   ],
-   "first_seen": "2026-11-15"
-  },
-  {
-   "title": "Operations Associate, Apprenticeship",
-   "company": "Stripe",
-   "url": "https://stripe.com/jobs/search?gh_jid=8131339",
-   "location": "Bengaluru",
-   "mode": "On-site (India)",
-   "posted": "2026-09-01",
-   "source": "Greenhouse",
-   "fit": 2,
-   "matched": [
-    "operations",
-    "excel",
-    "growth",
-    "startup"
-   ],
-   "notes": [
-    "Seems to be for 2026 graduates"
    ],
    "first_seen": "2026-11-15"
   }
@@ -1439,13 +1419,13 @@
    "source": "https://boards.greenhouse.io/successkpiinc",
    "postings": 0,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "source": "https://apply.workable.com/unosecur",
    "postings": 0,
    "error": null,
-   "seconds": 0.4
+   "seconds": 0.1
   },
   {
    "source": "https://boards.greenhouse.io/remotecom",
@@ -1481,7 +1461,7 @@
    "source": "Zomato (https://apply.workable.com/zomato)",
    "postings": 0,
    "error": null,
-   "seconds": 0.1
+   "seconds": 0.0
   },
   {
    "source": "Zepto (https://apply.workable.com/zepto)",
@@ -1490,58 +1470,70 @@
    "seconds": 0.1
   },
   {
-   "source": "https://jobs.smartrecruiters.com/Visa",
-   "postings": 0,
-   "error": null,
-   "seconds": 0.6
-  },
-  {
    "source": "Blinkit (https://apply.workable.com/blinkit)",
    "postings": 0,
    "error": null,
-   "seconds": 0.1
-  },
-  {
-   "source": "Myntra (https://apply.workable.com/myntra)",
-   "postings": 0,
-   "error": null,
-   "seconds": 0.2
-  },
-  {
-   "source": "Nykaa (https://apply.workable.com/nykaa)",
-   "postings": 0,
-   "error": null,
-   "seconds": 0.1
+   "seconds": 0.0
   },
   {
    "source": "Flipkart (https://apply.workable.com/flipkart)",
    "postings": 0,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.0
   },
   {
-   "source": "Dream11 (https://apply.workable.com/dream11)",
+   "source": "Myntra (https://apply.workable.com/myntra)",
    "postings": 0,
    "error": null,
-   "seconds": 0.1
+   "seconds": 0.0
+  },
+  {
+   "source": "Nykaa (https://apply.workable.com/nykaa)",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.0
   },
   {
    "source": "Ola (https://apply.workable.com/ola)",
    "postings": 0,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.1
+  },
+  {
+   "source": "Rapido (https://apply.workable.com/rapido)",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.0
   },
   {
    "source": "Uber India (https://apply.workable.com/uber-india)",
    "postings": 0,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.0
+  },
+  {
+   "source": "Dream11 (https://apply.workable.com/dream11)",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.0
+  },
+  {
+   "source": "MPL (https://apply.workable.com/mpl)",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.0
   },
   {
    "source": "Unacademy (https://apply.workable.com/unacademy)",
    "postings": 0,
    "error": null,
-   "seconds": 0.1
+   "seconds": 0.0
+  },
+  {
+   "source": "Scaler (https://jobs.ashbyhq.com/scaler)",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.0
   },
   {
    "source": "PhysicsWallah (https://apply.workable.com/physicswallah)",
@@ -1553,37 +1545,19 @@
    "source": "upGrad (https://apply.workable.com/upgrad)",
    "postings": 0,
    "error": null,
-   "seconds": 0.2
-  },
-  {
-   "source": "Scaler (https://jobs.ashbyhq.com/scaler)",
-   "postings": 0,
-   "error": null,
    "seconds": 0.1
-  },
-  {
-   "source": "MPL (https://apply.workable.com/mpl)",
-   "postings": 0,
-   "error": null,
-   "seconds": 0.3
   },
   {
    "source": "Vedantu (https://apply.workable.com/vedantu)",
    "postings": 0,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "source": "InterviewBit (https://apply.workable.com/interviewbit)",
    "postings": 0,
    "error": null,
    "seconds": 0.1
-  },
-  {
-   "source": "Rapido (https://apply.workable.com/rapido)",
-   "postings": 0,
-   "error": null,
-   "seconds": 0.4
   },
   {
    "source": "Cars24 (https://apply.workable.com/cars24)",
@@ -1595,13 +1569,13 @@
    "source": "Simplilearn (https://apply.workable.com/simplilearn)",
    "postings": 0,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
-   "source": "MakeMyTrip (https://apply.workable.com/makemytrip)",
+   "source": "https://jobs.smartrecruiters.com/Visa",
    "postings": 0,
    "error": null,
-   "seconds": 0.1
+   "seconds": 0.5
   },
   {
    "source": "OYO (https://apply.workable.com/oyo)",
@@ -1610,13 +1584,19 @@
    "seconds": 0.1
   },
   {
-   "source": "EaseMyTrip (https://apply.workable.com/easemytrip)",
+   "source": "Spinny (https://apply.workable.com/spinny)",
    "postings": 0,
    "error": null,
    "seconds": 0.1
   },
   {
-   "source": "BigBasket (https://apply.workable.com/bigbasket)",
+   "source": "MakeMyTrip (https://apply.workable.com/makemytrip)",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "EaseMyTrip (https://apply.workable.com/easemytrip)",
    "postings": 0,
    "error": null,
    "seconds": 0.1
@@ -1631,13 +1611,7 @@
    "source": "Country Delight (https://apply.workable.com/country-delight)",
    "postings": 0,
    "error": null,
-   "seconds": 0.2
-  },
-  {
-   "source": "Spinny (https://apply.workable.com/spinny)",
-   "postings": 0,
-   "error": null,
-   "seconds": 0.3
+   "seconds": 0.1
   },
   {
    "source": "Delhivery (https://apply.workable.com/delhivery)",
@@ -1646,19 +1620,61 @@
    "seconds": 0.1
   },
   {
+   "source": "BigBasket (https://apply.workable.com/bigbasket)",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "Shadowfax (https://apply.workable.com/shadowfax)",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "Udaan (https://apply.workable.com/udaan)",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.0
+  },
+  {
+   "source": "Jumbotail (https://apply.workable.com/jumbotail)",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "Lenskart (https://apply.workable.com/lenskart)",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "Pepperfry (https://apply.workable.com/pepperfry)",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.0
+  },
+  {
    "source": "Urban Company (https://apply.workable.com/urban-company)",
    "postings": 0,
    "error": null,
    "seconds": 0.2
   },
   {
-   "source": "Shadowfax (https://apply.workable.com/shadowfax)",
+   "source": "Mamaearth (https://apply.workable.com/mamaearth)",
    "postings": 0,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
-   "source": "Udaan (https://apply.workable.com/udaan)",
+   "source": "Square Yards (https://apply.workable.com/squareyards)",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "Zolo (https://boards.greenhouse.io/zolo)",
    "postings": 0,
    "error": null,
    "seconds": 0.1
@@ -1670,43 +1686,7 @@
    "seconds": 0.2
   },
   {
-   "source": "Jumbotail (https://apply.workable.com/jumbotail)",
-   "postings": 0,
-   "error": null,
-   "seconds": 0.2
-  },
-  {
    "source": "Livspace (https://apply.workable.com/livspace)",
-   "postings": 0,
-   "error": null,
-   "seconds": 0.1
-  },
-  {
-   "source": "Pepperfry (https://apply.workable.com/pepperfry)",
-   "postings": 0,
-   "error": null,
-   "seconds": 0.2
-  },
-  {
-   "source": "NoBroker (https://apply.workable.com/nobroker)",
-   "postings": 0,
-   "error": null,
-   "seconds": 0.1
-  },
-  {
-   "source": "Mamaearth (https://apply.workable.com/mamaearth)",
-   "postings": 0,
-   "error": null,
-   "seconds": 0.2
-  },
-  {
-   "source": "Lenskart (https://apply.workable.com/lenskart)",
-   "postings": 0,
-   "error": null,
-   "seconds": 0.2
-  },
-  {
-   "source": "Zolo (https://boards.greenhouse.io/zolo)",
    "postings": 0,
    "error": null,
    "seconds": 0.1
@@ -1715,7 +1695,13 @@
    "source": "Tata 1mg (https://apply.workable.com/tata-1mg)",
    "postings": 0,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.1
+  },
+  {
+   "source": "NoBroker (https://apply.workable.com/nobroker)",
+   "postings": 0,
+   "error": null,
+   "seconds": 0.1
   },
   {
    "source": "Cult.fit (https://apply.workable.com/cultfit)",
@@ -1724,28 +1710,22 @@
    "seconds": 0.1
   },
   {
-   "source": "Practo (https://apply.workable.com/practo)",
+   "source": "Pristyn Care (https://apply.workable.com/pristyncare)",
    "postings": 0,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "source": "HealthifyMe (https://apply.workable.com/healthifyme)",
    "postings": 0,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
-   "source": "Square Yards (https://apply.workable.com/squareyards)",
+   "source": "Practo (https://apply.workable.com/practo)",
    "postings": 0,
    "error": null,
-   "seconds": 0.3
-  },
-  {
-   "source": "Pristyn Care (https://apply.workable.com/pristyncare)",
-   "postings": 0,
-   "error": null,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "source": "Freshworks (https://jobs.lever.co/freshworks)",
@@ -1787,7 +1767,7 @@
    "source": "Navi (https://jobs.ashbyhq.com/navi)",
    "postings": 2,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "source": "Remote (https://boards.greenhouse.io/remote)",
@@ -1805,22 +1785,16 @@
    "source": "Brilliant (https://jobs.lever.co/brilliant)",
    "postings": 3,
    "error": null,
-   "seconds": 0.3
+   "seconds": 0.2
   },
   {
    "source": "Porter (https://boards.greenhouse.io/porter)",
    "postings": 4,
    "error": null,
-   "seconds": 0.2
-  },
-  {
-   "source": "Calendly (https://boards.greenhouse.io/calendly)",
-   "postings": 4,
-   "error": null,
    "seconds": 0.1
   },
   {
-   "source": "Khan Academy (https://boards.greenhouse.io/khanacademy)",
+   "source": "Calendly (https://boards.greenhouse.io/calendly)",
    "postings": 4,
    "error": null,
    "seconds": 0.1
@@ -1838,116 +1812,122 @@
    "seconds": 0.1
   },
   {
-   "source": "Ditto (https://jobs.ashbyhq.com/ditto)",
-   "postings": 6,
+   "source": "Khan Academy (https://boards.greenhouse.io/khanacademy)",
+   "postings": 5,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "source": "Typeform (https://boards.greenhouse.io/typeform)",
    "postings": 6,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "source": "Groww (https://boards.greenhouse.io/groww)",
    "postings": 7,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "source": "Atlan (https://jobs.ashbyhq.com/atlan)",
    "postings": 7,
    "error": null,
-   "seconds": 0.2
-  },
-  {
-   "source": "https://jobs.ashbyhq.com/zapier",
-   "postings": 8,
-   "error": null,
-   "seconds": 0.0
-  },
-  {
-   "source": "https://boards.greenhouse.io/safariai",
-   "postings": 9,
-   "error": null,
-   "seconds": 0.2
-  },
-  {
-   "source": "https://jobs.lever.co/fi",
-   "postings": 9,
-   "error": null,
-   "seconds": 0.2
-  },
-  {
-   "source": "https://jobs.ashbyhq.com/posthog",
-   "postings": 9,
-   "error": null,
    "seconds": 0.1
   },
   {
-   "source": "https://boards.greenhouse.io/observeai",
-   "postings": 10,
-   "error": null,
-   "seconds": 0.2
-  },
-  {
-   "source": "https://apply.workable.com/huggingface",
-   "postings": 10,
+   "source": "Ditto (https://jobs.ashbyhq.com/ditto)",
+   "postings": 7,
    "error": null,
    "seconds": 0.1
   },
   {
    "source": "Airtable (https://boards.greenhouse.io/airtable)",
-   "postings": 10,
+   "postings": 7,
    "error": null,
    "seconds": 0.2
+  },
+  {
+   "source": "https://boards.greenhouse.io/safariai",
+   "postings": 9,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://jobs.lever.co/fi",
+   "postings": 9,
+   "error": null,
+   "seconds": 0.5
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/zapier",
+   "postings": 9,
+   "error": null,
+   "seconds": 0.0
+  },
+  {
+   "source": "https://boards.greenhouse.io/observeai",
+   "postings": 10,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "https://apply.workable.com/huggingface",
+   "postings": 10,
+   "error": null,
+   "seconds": 0.0
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/posthog",
+   "postings": 10,
+   "error": null,
+   "seconds": 0.0
   },
   {
    "source": "CRED (https://jobs.lever.co/cred)",
    "postings": 11,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.6
   },
   {
    "source": "SpotDraft (https://jobs.ashbyhq.com/spotdraft)",
    "postings": 11,
    "error": null,
-   "seconds": 0.3
+   "seconds": 0.2
   },
   {
    "source": "Consensys (https://boards.greenhouse.io/consensys)",
    "postings": 11,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "source": "Pocket FM (https://jobs.lever.co/pocketfm)",
    "postings": 12,
    "error": null,
-   "seconds": 0.4
-  },
-  {
-   "source": "Jobicy",
-   "postings": 13,
-   "error": null,
-   "seconds": 0.6
+   "seconds": 0.2
   },
   {
    "source": "Outreach (https://jobs.lever.co/outreach)",
    "postings": 15,
    "error": null,
-   "seconds": 0.1
+   "seconds": 0.6
   },
   {
    "source": "Wise (https://boards.greenhouse.io/wise)",
    "postings": 18,
    "error": null,
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "source": "https://apply.workable.com/proarch-3",
    "postings": 19,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "source": "Truefoundry (https://boards.greenhouse.io/truefoundry)",
+   "postings": 20,
    "error": null,
    "seconds": 0.3
   },
@@ -1955,37 +1935,25 @@
    "source": "MindTickle (https://jobs.lever.co/mindtickle)",
    "postings": 20,
    "error": null,
-   "seconds": 0.4
-  },
-  {
-   "source": "Truefoundry (https://boards.greenhouse.io/truefoundry)",
-   "postings": 20,
-   "error": null,
-   "seconds": 0.4
-  },
-  {
-   "source": "Slice (https://boards.greenhouse.io/slice)",
-   "postings": 22,
-   "error": null,
    "seconds": 0.5
   },
   {
    "source": "Pendo (https://boards.greenhouse.io/pendo)",
+   "postings": 21,
+   "error": null,
+   "seconds": 0.3
+  },
+  {
+   "source": "https://boards.greenhouse.io/glance",
    "postings": 22,
    "error": null,
    "seconds": 0.2
   },
   {
-   "source": "https://boards.greenhouse.io/glance",
-   "postings": 23,
-   "error": null,
-   "seconds": 0.3
-  },
-  {
    "source": "https://boards.greenhouse.io/razorpaysoftwareprivatelimited",
    "postings": 23,
    "error": null,
-   "seconds": 0.4
+   "seconds": 0.2
   },
   {
    "source": "https://jobs.ashbyhq.com/multiverse",
@@ -1994,14 +1962,20 @@
    "seconds": 0.1
   },
   {
-   "source": "Toptal (https://jobs.lever.co/toptal)",
+   "source": "Slice (https://boards.greenhouse.io/slice)",
    "postings": 23,
    "error": null,
    "seconds": 0.3
   },
   {
+   "source": "Toptal (https://jobs.lever.co/toptal)",
+   "postings": 23,
+   "error": null,
+   "seconds": 0.5
+  },
+  {
    "source": "Druva (https://boards.greenhouse.io/druva)",
-   "postings": 26,
+   "postings": 25,
    "error": null,
    "seconds": 0.2
   },
@@ -2009,13 +1983,13 @@
    "source": "https://jobs.smartrecruiters.com/Canva",
    "postings": 26,
    "error": null,
-   "seconds": 0.7
+   "seconds": 0.8
   },
   {
    "source": "https://boards.greenhouse.io/discord",
    "postings": 29,
    "error": null,
-   "seconds": 0.3
+   "seconds": 0.1
   },
   {
    "source": "https://jobs.ashbyhq.com/composio",
@@ -2030,44 +2004,38 @@
    "seconds": 0.0
   },
   {
-   "source": "Remotive",
+   "source": "Attentive (https://boards.greenhouse.io/attentive)",
    "postings": 30,
    "error": null,
    "seconds": 0.4
   },
   {
-   "source": "Attentive (https://boards.greenhouse.io/attentive)",
-   "postings": 31,
+   "source": "Remotive",
+   "postings": 30,
    "error": null,
-   "seconds": 0.3
+   "seconds": 0.6
   },
   {
    "source": "Turing (https://boards.greenhouse.io/turing)",
    "postings": 31,
    "error": null,
-   "seconds": 0.3
+   "seconds": 0.5
   },
   {
    "source": "Zeta (https://jobs.lever.co/zeta)",
    "postings": 33,
    "error": null,
-   "seconds": 0.9
+   "seconds": 1.8
   },
   {
    "source": "Coursera (https://boards.greenhouse.io/coursera)",
-   "postings": 34,
+   "postings": 36,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.5
   },
   {
    "source": "https://jobs.ashbyhq.com/replit",
-   "postings": 38,
-   "error": null,
-   "seconds": 0.2
-  },
-  {
-   "source": "Mixpanel (https://boards.greenhouse.io/mixpanel)",
-   "postings": 38,
+   "postings": 37,
    "error": null,
    "seconds": 0.4
   },
@@ -2081,11 +2049,17 @@
    "source": "Hevo Data (https://jobs.lever.co/hevodata)",
    "postings": 40,
    "error": null,
-   "seconds": 0.7
+   "seconds": 1.1
   },
   {
    "source": "Himalayas",
    "postings": 40,
+   "error": null,
+   "seconds": 1.5
+  },
+  {
+   "source": "Mixpanel (https://boards.greenhouse.io/mixpanel)",
+   "postings": 41,
    "error": null,
    "seconds": 0.6
   },
@@ -2097,21 +2071,27 @@
   },
   {
    "source": "Apollo.io (https://boards.greenhouse.io/apolloio)",
-   "postings": 45,
+   "postings": 46,
    "error": null,
-   "seconds": 0.4
+   "seconds": 0.9
   },
   {
    "source": "Meesho (https://jobs.lever.co/meesho)",
    "postings": 48,
    "error": null,
+   "seconds": 0.8
+  },
+  {
+   "source": "https://boards.greenhouse.io/dropbox",
+   "postings": 49,
+   "error": null,
    "seconds": 0.3
   },
   {
    "source": "Duolingo (https://boards.greenhouse.io/duolingo)",
-   "postings": 52,
+   "postings": 53,
    "error": null,
-   "seconds": 0.3
+   "seconds": 0.1
   },
   {
    "source": "Zenoti (https://boards.greenhouse.io/zenoti)",
@@ -2123,167 +2103,167 @@
    "source": "Monzo (https://boards.greenhouse.io/monzo)",
    "postings": 53,
    "error": null,
-   "seconds": 0.5
-  },
-  {
-   "source": "https://boards.greenhouse.io/dropbox",
-   "postings": 54,
-   "error": null,
-   "seconds": 0.5
+   "seconds": 0.6
   },
   {
    "source": "https://boards.greenhouse.io/landor",
-   "postings": 57,
-   "error": null,
-   "seconds": 0.3
-  },
-  {
-   "source": "https://jobs.lever.co/weekdayworks",
-   "postings": 60,
-   "error": null,
-   "seconds": 10.3
-  },
-  {
-   "source": "https://boards.greenhouse.io/inmobi",
-   "postings": 67,
-   "error": null,
-   "seconds": 0.5
-  },
-  {
-   "source": "Mercury (https://boards.greenhouse.io/mercury)",
-   "postings": 68,
+   "postings": 58,
    "error": null,
    "seconds": 0.2
   },
   {
-   "source": "Arbeitnow",
-   "postings": 69,
+   "source": "https://jobs.lever.co/weekdayworks",
+   "postings": 59,
    "error": null,
-   "seconds": 1.7
+   "seconds": 0.8
+  },
+  {
+   "source": "Arbeitnow",
+   "postings": 64,
+   "error": null,
+   "seconds": 1.3
+  },
+  {
+   "source": "https://boards.greenhouse.io/inmobi",
+   "postings": 66,
+   "error": null,
+   "seconds": 0.3
+  },
+  {
+   "source": "Mercury (https://boards.greenhouse.io/mercury)",
+   "postings": 70,
+   "error": null,
+   "seconds": 0.5
   },
   {
    "source": "Faire (https://boards.greenhouse.io/faire)",
    "postings": 72,
    "error": null,
-   "seconds": 0.7
+   "seconds": 0.8
   },
   {
    "source": "https://jobs.ashbyhq.com/lovable",
-   "postings": 77,
+   "postings": 76,
    "error": null,
-   "seconds": 0.4
+   "seconds": 0.3
   },
   {
    "source": "https://apply.workable.com/lokal-app",
    "postings": 78,
    "error": null,
-   "seconds": 0.7
+   "seconds": 0.3
   },
   {
    "source": "https://jobs.ashbyhq.com/supabase",
    "postings": 80,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "source": "Together AI (https://boards.greenhouse.io/togetherai)",
    "postings": 81,
    "error": null,
-   "seconds": 0.4
-  },
-  {
-   "source": "Vercel (https://boards.greenhouse.io/vercel)",
-   "postings": 85,
-   "error": null,
-   "seconds": 0.4
+   "seconds": 0.6
   },
   {
    "source": "Gusto (https://boards.greenhouse.io/gusto)",
    "postings": 85,
    "error": null,
-   "seconds": 0.9
+   "seconds": 1.4
+  },
+  {
+   "source": "Vercel (https://boards.greenhouse.io/vercel)",
+   "postings": 86,
+   "error": null,
+   "seconds": 0.7
   },
   {
    "source": "https://jobs.lever.co/spotify",
-   "postings": 89,
+   "postings": 92,
    "error": null,
-   "seconds": 1.2
+   "seconds": 0.8
   },
   {
    "source": "RemoteOK",
    "postings": 100,
    "error": null,
-   "seconds": 1.1
+   "seconds": 0.8
   },
   {
    "source": "We Work Remotely",
    "postings": 100,
    "error": null,
-   "seconds": 2.9
+   "seconds": 0.6
   },
   {
-   "source": "https://jobs.ashbyhq.com/mercor",
-   "postings": 109,
+   "source": "Jobicy",
+   "postings": 100,
    "error": null,
-   "seconds": 0.5
+   "seconds": 1.3
   },
   {
    "source": "https://jobs.ashbyhq.com/decagon",
-   "postings": 113,
+   "postings": 105,
+   "error": null,
+   "seconds": 0.3
+  },
+  {
+   "source": "https://jobs.ashbyhq.com/mercor",
+   "postings": 108,
    "error": null,
    "seconds": 0.4
   },
   {
    "source": "https://boards.greenhouse.io/twilio",
-   "postings": 114,
+   "postings": 115,
    "error": null,
-   "seconds": 0.7
+   "seconds": 1.2
   },
   {
    "source": "https://jobs.ashbyhq.com/elevenlabs",
-   "postings": 119,
+   "postings": 117,
    "error": null,
-   "seconds": 0.2
-  },
-  {
-   "source": "https://jobs.smartrecruiters.com/Freshworks",
-   "postings": 120,
-   "error": null,
-   "seconds": 1.1
+   "seconds": 0.4
   },
   {
    "source": "Klaviyo (https://boards.greenhouse.io/klaviyo)",
-   "postings": 122,
+   "postings": 120,
    "error": null,
-   "seconds": 1.0
+   "seconds": 1.3
   },
   {
-   "source": "Intercom (https://boards.greenhouse.io/intercom)",
-   "postings": 123,
+   "source": "https://jobs.smartrecruiters.com/Freshworks",
+   "postings": 121,
    "error": null,
-   "seconds": 1.1
+   "seconds": 0.9
   },
   {
    "source": "https://jobs.ashbyhq.com/cohere",
+   "postings": 122,
+   "error": null,
+   "seconds": 0.5
+  },
+  {
+   "source": "Intercom (https://boards.greenhouse.io/intercom)",
    "postings": 124,
    "error": null,
-   "seconds": 0.2
+   "seconds": 1.6
   },
   {
    "source": "STAGE (https://boards.greenhouse.io/stage)",
-   "postings": 126,
+   "postings": 125,
    "error": null,
-   "seconds": 1.4
+   "seconds": 1.7
   },
   {
    "source": "Figma (https://boards.greenhouse.io/figma)",
-   "postings": 145,
+   "postings": 146,
    "error": null,
-   "seconds": 0.7
+   "seconds": 0.3
   },
   {
    "source": "https://boards.greenhouse.io/reddit",
-   "postings": 147,
+   "postings": 149,
    "error": null,
    "seconds": 1.1
   },
@@ -2291,31 +2271,31 @@
    "source": "https://jobs.ashbyhq.com/perplexity",
    "postings": 151,
    "error": null,
-   "seconds": 0.3
+   "seconds": 0.2
   },
   {
    "source": "Scale AI (https://boards.greenhouse.io/scaleai)",
-   "postings": 159,
+   "postings": 157,
    "error": null,
-   "seconds": 0.4
+   "seconds": 0.3
   },
   {
    "source": "https://boards.greenhouse.io/robinhood",
-   "postings": 159,
+   "postings": 162,
    "error": null,
-   "seconds": 0.9
+   "seconds": 1.0
   },
   {
    "source": "https://jobs.ashbyhq.com/notion",
    "postings": 172,
    "error": null,
-   "seconds": 0.6
+   "seconds": 0.5
   },
   {
    "source": "https://jobs.ashbyhq.com/ramp",
-   "postings": 180,
+   "postings": 182,
    "error": null,
-   "seconds": 0.5
+   "seconds": 0.4
   },
   {
    "source": "https://jobs.lever.co/paytm",
@@ -2325,105 +2305,105 @@
   },
   {
    "source": "https://boards.greenhouse.io/airbnb",
-   "postings": 199,
+   "postings": 200,
    "error": null,
-   "seconds": 1.2
+   "seconds": 1.1
   },
   {
    "source": "Rubrik (https://boards.greenhouse.io/rubrik)",
-   "postings": 223,
+   "postings": 225,
    "error": null,
-   "seconds": 0.9
+   "seconds": 0.7
   },
   {
    "source": "Sezzle (https://boards.greenhouse.io/sezzle)",
    "postings": 235,
    "error": null,
-   "seconds": 1.2
+   "seconds": 1.5
   },
   {
    "source": "https://boards.greenhouse.io/coinbase",
-   "postings": 249,
+   "postings": 247,
    "error": null,
-   "seconds": 1.4
+   "seconds": 1.3
   },
   {
    "source": "https://boards.greenhouse.io/gitlab",
-   "postings": 252,
+   "postings": 250,
    "error": null,
-   "seconds": 0.9
+   "seconds": 1.0
   },
   {
    "source": "Brex (https://boards.greenhouse.io/brex)",
-   "postings": 263,
+   "postings": 261,
    "error": null,
-   "seconds": 1.0
+   "seconds": 1.3
   },
   {
    "source": "https://jobs.lever.co/palantir",
    "postings": 305,
    "error": null,
-   "seconds": 1.0
+   "seconds": 1.8
   },
   {
    "source": "https://boards.greenhouse.io/canonical",
    "postings": 317,
    "error": null,
-   "seconds": 0.6
+   "seconds": 0.7
   },
   {
    "source": "https://boards.greenhouse.io/datadog",
-   "postings": 383,
+   "postings": 388,
    "error": null,
-   "seconds": 1.8
+   "seconds": 4.0
   },
   {
    "source": "https://jobs.ashbyhq.com/harvey",
-   "postings": 397,
+   "postings": 394,
    "error": null,
-   "seconds": 0.8
+   "seconds": 1.0
   },
   {
    "source": "https://boards.greenhouse.io/mongodb",
-   "postings": 419,
+   "postings": 418,
    "error": null,
-   "seconds": 2.5
+   "seconds": 3.5
   },
   {
    "source": "https://boards.greenhouse.io/cloudflare",
-   "postings": 503,
+   "postings": 512,
    "error": null,
-   "seconds": 4.9
+   "seconds": 5.0
   },
   {
    "source": "https://boards.greenhouse.io/anthropic",
-   "postings": 633,
+   "postings": 636,
    "error": null,
-   "seconds": 3.6
+   "seconds": 3.9
   },
   {
    "source": "https://boards.greenhouse.io/stripe",
-   "postings": 769,
+   "postings": 770,
    "error": null,
-   "seconds": 3.7
+   "seconds": 2.2
   },
   {
    "source": "https://jobs.ashbyhq.com/openai",
-   "postings": 863,
+   "postings": 877,
    "error": null,
-   "seconds": 5.2
+   "seconds": 3.7
   },
   {
    "source": "https://boards.greenhouse.io/databricks",
    "postings": 889,
    "error": null,
-   "seconds": 4.3
+   "seconds": 3.5
   },
   {
    "source": "https://jobs.smartrecruiters.com/ServiceNow",
-   "postings": 994,
+   "postings": 991,
    "error": null,
-   "seconds": 6.4
+   "seconds": 5.2
   }
  ]
 }
