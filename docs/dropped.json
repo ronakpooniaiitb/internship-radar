@@ -1,6 +1,6 @@
 {
-"updated": "2026-11-26 07:55 IST",
-"count": 367,
+"updated": "2026-11-26 20:02 IST",
+"count": 368,
 "dropped": [
 {
 "title": "Accounting Intern",
@@ -9,14 +9,6 @@
 "source": "Greenhouse",
 "why": "excluded word: Accounting",
 "url": "https://www.coinbase.com/careers/positions/8173991?gh_jid=8173991"
-},
-{
-"title": "Industrial Trainee - Finance & Accounting",
-"company": "Sigmoid",
-"location": "Bengaluru, Karnataka, India",
-"source": "Greenhouse",
-"why": "excluded word: Accounting",
-"url": "https://job-boards.greenhouse.io/sigmoid/jobs/8713069002"
 },
 {
 "title": "Internal Audit Analytics Intern",
@@ -501,18 +493,18 @@
 {
 "title": "Master's Machine Learning Engineer, Intern",
 "company": "Stripe",
-"location": "Toronto",
-"source": "Greenhouse",
-"why": "excluded word: Machine Learning",
-"url": "https://stripe.com/jobs/search?gh_jid=8333122"
-},
-{
-"title": "Master's Machine Learning Engineer, Intern",
-"company": "Stripe",
 "location": "San Francisco, New York City, Seattle",
 "source": "Greenhouse",
 "why": "excluded word: Machine Learning",
 "url": "https://stripe.com/jobs/search?gh_jid=8333074"
+},
+{
+"title": "Master's Machine Learning Engineer, Intern",
+"company": "Stripe",
+"location": "Toronto",
+"source": "Greenhouse",
+"why": "excluded word: Machine Learning",
+"url": "https://stripe.com/jobs/search?gh_jid=8333122"
 },
 {
 "title": "PhD GenAI Research Scientist Intern",
@@ -609,6 +601,14 @@
 "source": "Greenhouse",
 "why": "excluded word: PhD",
 "url": "https://stripe.com/jobs/search?gh_jid=8328662"
+},
+{
+"title": "Recruitment Coordinator Intern",
+"company": "e-Careers Limited",
+"location": "United Kingdom",
+"source": "Himalayas",
+"why": "excluded word: Recruit",
+"url": "https://himalayas.app/companies/e-careers-limited/jobs/recruitment-coordinator-intern?utm_source=api"
 },
 {
 "title": "Sales Development Intern, Services, France",
@@ -1251,6 +1251,14 @@
 "url": "https://www.rubrik.com/company/careers/departments/job.8166537?gh_jid=8166537"
 },
 {
+"title": "Software Engineer (UI) - Winter Intern",
+"company": "Rubrik Job Board",
+"location": "Bangalore",
+"source": "Greenhouse",
+"why": "excluded word: Software",
+"url": "https://www.rubrik.com/company/careers/departments/job.8413157?gh_jid=8413157"
+},
+{
 "title": "Software Engineering Intern (Summer 2027)",
 "company": "Scale AI",
 "location": "Doha, Qatar",
@@ -1293,18 +1301,18 @@
 {
 "title": "Software Engineer, Intern",
 "company": "Stripe",
-"location": "London",
-"source": "Greenhouse",
-"why": "excluded word: Software",
-"url": "https://stripe.com/jobs/search?gh_jid=8130867"
-},
-{
-"title": "Software Engineer, Intern",
-"company": "Stripe",
 "location": "Singapore",
 "source": "Greenhouse",
 "why": "excluded word: Software",
 "url": "https://stripe.com/jobs/search?gh_jid=8130883"
+},
+{
+"title": "Software Engineer, Intern",
+"company": "Stripe",
+"location": "London",
+"source": "Greenhouse",
+"why": "excluded word: Software",
+"url": "https://stripe.com/jobs/search?gh_jid=8130867"
 },
 {
 "title": "Software Engineer, Intern",
@@ -1317,18 +1325,18 @@
 {
 "title": "Software Engineer, Intern (Summer)",
 "company": "Stripe",
-"location": "Toronto",
-"source": "Greenhouse",
-"why": "excluded word: Software",
-"url": "https://stripe.com/jobs/search?gh_jid=8130805"
-},
-{
-"title": "Software Engineer, Intern (Summer)",
-"company": "Stripe",
 "location": "San Francisco, Seattle, New York City",
 "source": "Greenhouse",
 "why": "excluded word: Software",
 "url": "https://stripe.com/jobs/search?gh_jid=8128745"
+},
+{
+"title": "Software Engineer, Intern (Summer)",
+"company": "Stripe",
+"location": "Toronto",
+"source": "Greenhouse",
+"why": "excluded word: Software",
+"url": "https://stripe.com/jobs/search?gh_jid=8130805"
 },
 {
 "title": "Software Engineer, Intern (Summer or Winter)",
@@ -1361,6 +1369,14 @@
 "source": "Lever",
 "why": "excluded word: Talent",
 "url": "https://jobs.lever.co/paytm/9d497980-2032-440c-8bac-63fb53938acc"
+},
+{
+"title": "Talent  Acquisition Internship",
+"company": "paytm",
+"location": "Gurugram, Haryana",
+"source": "Lever",
+"why": "excluded word: Talent",
+"url": "https://jobs.lever.co/paytm/c6b86cd8-7f07-4469-992b-8968ed92739e"
 },
 {
 "title": "Talent Acquisition Intern",
@@ -1427,14 +1443,6 @@
 "url": "https://www.coinbase.com/careers/positions/8175453?gh_jid=8175453"
 },
 {
-"title": "Global Tax Intern",
-"company": "Ensono",
-"location": "US Only",
-"source": "RemoteOK",
-"why": "excluded word: Tax",
-"url": "https://remoteOK.com/remote-jobs/remote-global-tax-intern-ensono-1137943"
-},
-{
 "title": "2027 - Tax Intern, New York City",
 "company": "MongoDB",
 "location": "New York City",
@@ -1465,14 +1473,6 @@
 "source": "Greenhouse",
 "why": "on-site outside India",
 "url": "https://www.brex.com/careers/8936631002?gh_jid=8936631002"
-},
-{
-"title": "People Operations Intern (2026/2027 Batch Only)",
-"company": "Cloudflare",
-"location": "In-Office",
-"source": "Greenhouse",
-"why": "on-site outside India",
-"url": "https://boards.greenhouse.io/cloudflare/jobs/8392302?gh_jid=8392302"
 },
 {
 "title": "Product Manager Intern (2027) - Austin, TX",
@@ -2003,14 +2003,6 @@
 "url": "https://himalayas.app/companies/ambitious-africa/jobs/partnership-intern-creative-gateway-refugee-project?utm_source=api"
 },
 {
-"title": "Summer Intern - Quality (Health Policy / Economics) - Remote",
-"company": "American Society of Anesthesiologists®",
-"location": "USA Only",
-"source": "We Work Remotely",
-"why": "role not in your list",
-"url": "https://weworkremotely.com/remote-jobs/american-society-of-anesthesiologists-summer-intern-quality-health-policy-economics-remote"
-},
-{
 "title": "India Intern",
 "company": "BowerGroupAsia",
 "location": "India",
@@ -2243,12 +2235,12 @@
 "url": "https://himalayas.app/companies/get-engaged/jobs/internship?utm_source=api"
 },
 {
-"title": "Internal Communication Intern- Spring 2027",
-"company": "Grow Financial",
-"location": "United States",
-"source": "Himalayas",
+"title": "Content - Intern",
+"company": "Groww",
+"location": "Bengaluru, India",
+"source": "Greenhouse",
 "why": "role not in your list",
-"url": "https://himalayas.app/companies/grow-financial/jobs/internal-communication-intern-spring-2027?utm_source=api"
+"url": "https://job-boards.eu.greenhouse.io/groww/jobs/5049076101"
 },
 {
 "title": "Gusto Insights Intern",
@@ -2481,6 +2473,22 @@
 "source": "Lever",
 "why": "role not in your list",
 "url": "https://jobs.lever.co/paytm/c8886602-f1b7-4c08-b181-f4d36b2d0e80"
+},
+{
+"title": "Product Design Intern (USA)",
+"company": "Pinterest",
+"location": "Anywhere in the World",
+"source": "We Work Remotely",
+"why": "role not in your list",
+"url": "https://weworkremotely.com/remote-jobs/pinterest-product-design-intern-usa"
+},
+{
+"title": "Pflichtpraktikum Content Management & SEO (w/m/d) – in Teilzeit, remote oder hybrid",
+"company": "Plantura GmbH",
+"location": "Munich",
+"source": "Arbeitnow",
+"why": "role not in your list",
+"url": "https://www.arbeitnow.com/jobs/companies/plantura-gmbh/pflichtpraktikum-content-management-seo-in-teilzeit-remote-oder-hybrid-munich-300524"
 },
 {
 "title": "Organic Search (SEO & Content Marketing) Intern, Fall 2025",
@@ -2853,18 +2861,18 @@
 {
 "title": "Product Design Intern",
 "company": "Stripe",
-"location": "San Francisco, Seattle, New York City",
-"source": "Greenhouse",
-"why": "role not in your list",
-"url": "https://stripe.com/jobs/search?gh_jid=8332681"
-},
-{
-"title": "Product Design Intern",
-"company": "Stripe",
 "location": "Toronto",
 "source": "Greenhouse",
 "why": "role not in your list",
 "url": "https://stripe.com/jobs/search?gh_jid=8332683"
+},
+{
+"title": "Product Design Intern",
+"company": "Stripe",
+"location": "San Francisco, Seattle, New York City",
+"source": "Greenhouse",
+"why": "role not in your list",
+"url": "https://stripe.com/jobs/search?gh_jid=8332681"
 },
 {
 "title": "TSS Internship Program",
@@ -2881,14 +2889,6 @@
 "source": "Himalayas",
 "why": "role not in your list",
 "url": "https://himalayas.app/companies/tinymind-labs/jobs/internship?utm_source=api"
-},
-{
-"title": "Applied Scientist Intern",
-"company": "Upstart",
-"location": "USA",
-"source": "Jobicy",
-"why": "role not in your list",
-"url": "https://jobicy.com/jobs/163206-applied-scientist-intern-2"
 },
 {
 "title": "Data Entry Intern",
@@ -2913,6 +2913,14 @@
 "source": "Lever",
 "why": "role not in your list",
 "url": "https://jobs.lever.co/weekdayworks/ed366116-2c23-48a9-9c8f-a6d46686ee67"
+},
+{
+"title": "Intern",
+"company": "zeta",
+"location": "Bangalore - WF",
+"source": "Lever",
+"why": "role not in your list",
+"url": "https://jobs.lever.co/zeta/331526ff-cb2d-4b93-a812-ff37ebb7edc2"
 },
 {
 "title": "Sr Outbound Product Manager Intern (MBA Summer 2027)",
