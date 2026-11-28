@@ -1,6 +1,6 @@
 {
-"updated": "2026-11-27 19:58 IST",
-"count": 372,
+"updated": "2026-11-28 07:53 IST",
+"count": 365,
 "dropped": [
 {
 "title": "Accounting Intern",
@@ -245,14 +245,6 @@
 {
 "title": "A.I. Engineering Intern",
 "company": "Sezzle",
-"location": "Latin America",
-"source": "Greenhouse",
-"why": "excluded word: Engineer",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/7980309003"
-},
-{
-"title": "A.I. Engineering Intern",
-"company": "Sezzle",
 "location": "Brazil, Remote",
 "source": "Greenhouse",
 "why": "excluded word: Engineer",
@@ -273,6 +265,14 @@
 "source": "Greenhouse",
 "why": "excluded word: Engineer",
 "url": "https://job-boards.greenhouse.io/sezzle/jobs/7980003003"
+},
+{
+"title": "A.I. Engineering Intern",
+"company": "Sezzle",
+"location": "Latin America",
+"source": "Greenhouse",
+"why": "excluded word: Engineer",
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/7980309003"
 },
 {
 "title": "AI Engineering Intern",
@@ -313,14 +313,6 @@
 "source": "Greenhouse",
 "why": "excluded word: Engineer",
 "url": "https://stripe.com/jobs/search?gh_jid=8186367"
-},
-{
-"title": "Data Engineering Intern",
-"company": "Wurl",
-"location": "Canada,  USA",
-"source": "Jobicy",
-"why": "excluded word: Engineer",
-"url": "https://jobicy.com/jobs/163972-data-engineering-intern"
 },
 {
 "title": "Frontend Intern",
@@ -381,18 +373,18 @@
 {
 "title": "Legal Intern (Practicante de Derecho)",
 "company": "Sezzle",
-"location": "Peru",
-"source": "Greenhouse",
-"why": "excluded word: Legal",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/8010488003"
-},
-{
-"title": "Legal Intern (Practicante de Derecho)",
-"company": "Sezzle",
 "location": "Bogota, Colombia",
 "source": "Greenhouse",
 "why": "excluded word: Legal",
 "url": "https://job-boards.greenhouse.io/sezzle/jobs/7996052003"
+},
+{
+"title": "Legal Intern (Practicante de Derecho)",
+"company": "Sezzle",
+"location": "Peru",
+"source": "Greenhouse",
+"why": "excluded word: Legal",
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/8010488003"
 },
 {
 "title": "MBA Intern – KKR Capstone Team - Singapore - 6 months",
@@ -433,14 +425,6 @@
 "source": "SmartRecruiters",
 "why": "excluded word: MBA",
 "url": "https://jobs.smartrecruiters.com/ServiceNow/744000162629690"
-},
-{
-"title": "Product Management MBA Intern",
-"company": "Teamworks",
-"location": "USA",
-"source": "Jobicy",
-"why": "excluded word: MBA",
-"url": "https://jobicy.com/jobs/163659-product-management-mba-intern"
 },
 {
 "title": "Applied AI/ML Scientist, Intern - Winter 2027",
@@ -493,18 +477,18 @@
 {
 "title": "Master's Machine Learning Engineer, Intern",
 "company": "Stripe",
-"location": "San Francisco, New York City, Seattle",
-"source": "Greenhouse",
-"why": "excluded word: Machine Learning",
-"url": "https://stripe.com/jobs/search?gh_jid=8333074"
-},
-{
-"title": "Master's Machine Learning Engineer, Intern",
-"company": "Stripe",
 "location": "Toronto",
 "source": "Greenhouse",
 "why": "excluded word: Machine Learning",
 "url": "https://stripe.com/jobs/search?gh_jid=8333122"
+},
+{
+"title": "Master's Machine Learning Engineer, Intern",
+"company": "Stripe",
+"location": "San Francisco, New York City, Seattle",
+"source": "Greenhouse",
+"why": "excluded word: Machine Learning",
+"url": "https://stripe.com/jobs/search?gh_jid=8333074"
 },
 {
 "title": "PhD GenAI Research Scientist Intern",
@@ -805,18 +789,18 @@
 {
 "title": "Software Engineering Intern",
 "company": "Datadog",
-"location": "Paris, France",
-"source": "Greenhouse",
-"why": "excluded word: Software",
-"url": "https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186"
-},
-{
-"title": "Software Engineering Intern",
-"company": "Datadog",
 "location": "Madrid, Spain",
 "source": "Greenhouse",
 "why": "excluded word: Software",
 "url": "https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161"
+},
+{
+"title": "Software Engineering Intern",
+"company": "Datadog",
+"location": "Paris, France",
+"source": "Greenhouse",
+"why": "excluded word: Software",
+"url": "https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186"
 },
 {
 "title": "Software Engineer Intern (London, United Kingdom) (Summer 2027)",
@@ -1637,18 +1621,18 @@
 {
 "title": "Chargeback Operations Intern",
 "company": "Sezzle",
-"location": "Mexico",
-"source": "Greenhouse",
-"why": "on-site outside India",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/8012021003"
-},
-{
-"title": "Chargeback Operations Intern",
-"company": "Sezzle",
 "location": "Brazil",
 "source": "Greenhouse",
 "why": "on-site outside India",
 "url": "https://job-boards.greenhouse.io/sezzle/jobs/8011477003"
+},
+{
+"title": "Chargeback Operations Intern",
+"company": "Sezzle",
+"location": "Peru",
+"source": "Greenhouse",
+"why": "on-site outside India",
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/8040733003"
 },
 {
 "title": "Chargeback Operations Intern",
@@ -1661,10 +1645,10 @@
 {
 "title": "Chargeback Operations Intern",
 "company": "Sezzle",
-"location": "Peru",
+"location": "Mexico",
 "source": "Greenhouse",
 "why": "on-site outside India",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/8040733003"
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/8012021003"
 },
 {
 "title": "Chargeback Operations Intern (Colombia)",
@@ -1693,10 +1677,10 @@
 {
 "title": "Fraud Operations Intern (Practicante de Prevención de Fraude)",
 "company": "Sezzle",
-"location": "Argentina",
+"location": "Peru",
 "source": "Greenhouse",
 "why": "on-site outside India",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/8195970003"
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/8009616003"
 },
 {
 "title": "Fraud Operations Intern (Practicante de Prevención de Fraude)",
@@ -1717,18 +1701,18 @@
 {
 "title": "Fraud Operations Intern (Practicante de Prevención de Fraude)",
 "company": "Sezzle",
-"location": "Colombia",
+"location": "Argentina",
 "source": "Greenhouse",
 "why": "on-site outside India",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/7116700003"
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/8195970003"
 },
 {
 "title": "Fraud Operations Intern (Practicante de Prevención de Fraude)",
 "company": "Sezzle",
-"location": "Peru",
+"location": "Colombia",
 "source": "Greenhouse",
 "why": "on-site outside India",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/8009616003"
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/7116700003"
 },
 {
 "title": "Fraud Operations Intern (Practicante de Prevención de Fraude)",
@@ -1837,10 +1821,10 @@
 {
 "title": "Product Management Intern",
 "company": "Sezzle",
-"location": "Colombia, Remote",
+"location": "Argentina, Remote",
 "source": "Greenhouse",
 "why": "remote, but only for another region",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/7537957003"
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/8004009003"
 },
 {
 "title": "Product Management Intern",
@@ -1861,10 +1845,26 @@
 {
 "title": "Product Management Intern",
 "company": "Sezzle",
+"location": "Colombia, Remote",
+"source": "Greenhouse",
+"why": "remote, but only for another region",
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/7537957003"
+},
+{
+"title": "Product Manager Intern, ShopX(Rewards)",
+"company": "Sezzle",
 "location": "Argentina, Remote",
 "source": "Greenhouse",
 "why": "remote, but only for another region",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/8004009003"
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/8044476003"
+},
+{
+"title": "Product Manager Intern, ShopX(Rewards)",
+"company": "Sezzle",
+"location": "Colombia, Remote",
+"source": "Greenhouse",
+"why": "remote, but only for another region",
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/8044470003"
 },
 {
 "title": "Product Manager Intern, ShopX(Rewards)",
@@ -1883,36 +1883,12 @@
 "url": "https://job-boards.greenhouse.io/sezzle/jobs/8044475003"
 },
 {
-"title": "Product Manager Intern, ShopX(Rewards)",
-"company": "Sezzle",
-"location": "Colombia, Remote",
-"source": "Greenhouse",
-"why": "remote, but only for another region",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/8044470003"
-},
-{
-"title": "Product Manager Intern, ShopX(Rewards)",
-"company": "Sezzle",
-"location": "Argentina, Remote",
-"source": "Greenhouse",
-"why": "remote, but only for another region",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/8044476003"
-},
-{
 "title": "Product Operations Intern, Rewards",
 "company": "Sezzle",
-"location": "Mexico, Remote",
+"location": "Brazil, Remote",
 "source": "Greenhouse",
 "why": "remote, but only for another region",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/8012083003"
-},
-{
-"title": "Product Operations Intern, Rewards",
-"company": "Sezzle",
-"location": "Chile, Remote",
-"source": "Greenhouse",
-"why": "remote, but only for another region",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/8012084003"
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/8012081003"
 },
 {
 "title": "Product Operations Intern, Rewards",
@@ -1925,10 +1901,18 @@
 {
 "title": "Product Operations Intern, Rewards",
 "company": "Sezzle",
-"location": "Brazil, Remote",
+"location": "Chile, Remote",
 "source": "Greenhouse",
 "why": "remote, but only for another region",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/8012081003"
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/8012084003"
+},
+{
+"title": "Product Operations Intern, Rewards",
+"company": "Sezzle",
+"location": "Mexico, Remote",
+"source": "Greenhouse",
+"why": "remote, but only for another region",
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/8012083003"
 },
 {
 "title": "Product Operations Intern, Rewards",
@@ -1953,22 +1937,6 @@
 "source": "Himalayas",
 "why": "remote, but only for another region",
 "url": "https://himalayas.app/companies/simplygood/jobs/operations-internship-6-months-internship?utm_source=api"
-},
-{
-"title": "Werkstudent / Praktikant (m/w/d) – Growth Marketing & Content",
-"company": "Strive Nutrition GmbH",
-"location": "Berlin",
-"source": "Arbeitnow",
-"why": "remote, but only for another region",
-"url": "https://www.arbeitnow.com/jobs/companies/strive-nutrition-gmbh/werkstudent-praktikant-growth-marketing-content-berlin-417651"
-},
-{
-"title": "Werkstudent / Praktikant (m/w/d) – Product Management, Operations & International Expansion",
-"company": "Strive Nutrition GmbH",
-"location": "Berlin",
-"source": "Arbeitnow",
-"why": "remote, but only for another region",
-"url": "https://www.arbeitnow.com/jobs/companies/strive-nutrition-gmbh/werkstudent-praktikant-product-management-operations-international-expansion-berlin-388895"
 },
 {
 "title": "International Editor (Internship)",
@@ -2193,22 +2161,6 @@
 "source": "Himalayas",
 "why": "role not in your list",
 "url": "https://himalayas.app/companies/dyverse/jobs/search-engine-optimization-intern-spring-2027?utm_source=api"
-},
-{
-"title": "Customer Support Specialist (Contract or Intern)",
-"company": "Eight Sleep",
-"location": "USA",
-"source": "Jobicy",
-"why": "role not in your list",
-"url": "https://jobicy.com/jobs/163855-customer-support-specialist-contract-or-intern"
-},
-{
-"title": "Influencer Marketing Internship (Winter/Spring 2027)",
-"company": "FamFluence",
-"location": "USA Only",
-"source": "We Work Remotely",
-"why": "role not in your list",
-"url": "https://weworkremotely.com/remote-jobs/famfluence-influencer-marketing-internship-winter-spring-2027"
 },
 {
 "title": "Join our Internship Community",
@@ -2515,14 +2467,6 @@
 "url": "https://jobs.lever.co/paytm/c8886602-f1b7-4c08-b181-f4d36b2d0e80"
 },
 {
-"title": "Pflichtpraktikum Content Management & SEO (w/m/d) – in Teilzeit, remote oder hybrid",
-"company": "Plantura GmbH",
-"location": "Munich",
-"source": "Arbeitnow",
-"why": "role not in your list",
-"url": "https://www.arbeitnow.com/jobs/companies/plantura-gmbh/pflichtpraktikum-content-management-seo-in-teilzeit-remote-oder-hybrid-munich-300524"
-},
-{
 "title": "Organic Search (SEO & Content Marketing) Intern, Fall 2025",
 "company": "Power Digital Marketing",
 "location": "United States",
@@ -2629,10 +2573,10 @@
 {
 "title": "Compliance Intern",
 "company": "Sezzle",
-"location": "Chile",
+"location": "Brazil",
 "source": "Greenhouse",
 "why": "role not in your list",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/8044541003"
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/8044524003"
 },
 {
 "title": "Compliance Intern",
@@ -2645,10 +2589,10 @@
 {
 "title": "Compliance Intern",
 "company": "Sezzle",
-"location": "Brazil",
+"location": "Chile",
 "source": "Greenhouse",
 "why": "role not in your list",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/8044524003"
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/8044541003"
 },
 {
 "title": "Compliance Intern",
@@ -2661,18 +2605,26 @@
 {
 "title": "Compliance Intern",
 "company": "Sezzle",
+"location": "Peru",
+"source": "Greenhouse",
+"why": "role not in your list",
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/8010481003"
+},
+{
+"title": "Compliance Intern",
+"company": "Sezzle",
 "location": "Mexico, Remote",
 "source": "Greenhouse",
 "why": "role not in your list",
 "url": "https://job-boards.greenhouse.io/sezzle/jobs/7995774003"
 },
 {
-"title": "Compliance Intern",
+"title": "Fraud & Disputes Intern",
 "company": "Sezzle",
 "location": "Peru",
 "source": "Greenhouse",
 "why": "role not in your list",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/8010481003"
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/8040739003"
 },
 {
 "title": "Fraud & Disputes Intern",
@@ -2707,20 +2659,12 @@
 "url": "https://job-boards.greenhouse.io/sezzle/jobs/8011532003"
 },
 {
-"title": "Fraud & Disputes Intern",
-"company": "Sezzle",
-"location": "Peru",
-"source": "Greenhouse",
-"why": "role not in your list",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/8040739003"
-},
-{
 "title": "Graphic Design Intern",
 "company": "Sezzle",
-"location": "Peru",
+"location": "Mexico",
 "source": "Greenhouse",
 "why": "role not in your list",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/8040652003"
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/8195952003"
 },
 {
 "title": "Graphic Design Intern",
@@ -2733,18 +2677,18 @@
 {
 "title": "Graphic Design Intern",
 "company": "Sezzle",
-"location": "Brazil",
+"location": "Peru",
 "source": "Greenhouse",
 "why": "role not in your list",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/8195951003"
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/8040652003"
 },
 {
 "title": "Graphic Design Intern",
 "company": "Sezzle",
-"location": "Mexico",
+"location": "Brazil",
 "source": "Greenhouse",
 "why": "role not in your list",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/8195952003"
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/8195951003"
 },
 {
 "title": "Graphic Design Intern",
@@ -2773,18 +2717,18 @@
 {
 "title": "Multi Media Design Intern",
 "company": "Sezzle",
-"location": "Bogota, Colombia",
-"source": "Greenhouse",
-"why": "role not in your list",
-"url": "https://job-boards.greenhouse.io/sezzle/jobs/7638791003"
-},
-{
-"title": "Multi Media Design Intern",
-"company": "Sezzle",
 "location": "Peru",
 "source": "Greenhouse",
 "why": "role not in your list",
 "url": "https://job-boards.greenhouse.io/sezzle/jobs/8040759003"
+},
+{
+"title": "Multi Media Design Intern",
+"company": "Sezzle",
+"location": "Bogota, Colombia",
+"source": "Greenhouse",
+"why": "role not in your list",
+"url": "https://job-boards.greenhouse.io/sezzle/jobs/7638791003"
 },
 {
 "title": "Payroll & Benefits Intern (Practicante de Nómina y Compensación)",
@@ -2869,18 +2813,18 @@
 {
 "title": "Data Analyst, Intern",
 "company": "Stripe",
-"location": "New York, Seattle, South San Francisco HQ",
-"source": "Greenhouse",
-"why": "role not in your list",
-"url": "https://stripe.com/jobs/search?gh_jid=8194291"
-},
-{
-"title": "Data Analyst, Intern",
-"company": "Stripe",
 "location": "Toronto",
 "source": "Greenhouse",
 "why": "role not in your list",
 "url": "https://stripe.com/jobs/search?gh_jid=8194287"
+},
+{
+"title": "Data Analyst, Intern",
+"company": "Stripe",
+"location": "New York, Seattle, South San Francisco HQ",
+"source": "Greenhouse",
+"why": "role not in your list",
+"url": "https://stripe.com/jobs/search?gh_jid=8194291"
 },
 {
 "title": "Product Design Intern",
